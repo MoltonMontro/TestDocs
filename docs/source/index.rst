@@ -7,6 +7,10 @@ Just a test site to familiarize myself with ReadTheDocs.
 
    This project is under active development.
 
+.. warning::
+
+   This project is under active development.
+
 Contents
 --------
 
