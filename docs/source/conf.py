@@ -3,8 +3,8 @@
 # -- Project information
 
 project = "Molt's Test Docs"
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2023, Molt'
+author = 'Molt'
 
 release = '0.1'
 version = '0.1.0'
