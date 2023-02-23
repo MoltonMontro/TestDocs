@@ -1,3 +1,6 @@
+Animals
+=======
+
 **GUID** *32-digit hexadecimal*: Refer to `GUID </GUID.md>`__
 documentation.
 
