@@ -51,8 +51,6 @@ Examples
       f(x) & = & x^2 + 2xy + y^2
    \end{eqnarray}
 
-.. raw:: This is raw. I am not sure why this is a content block directive. Presumably it just outputs raw text, which can be done normally.
-
 Contents
 --------
 
