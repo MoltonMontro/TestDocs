@@ -11,17 +11,8 @@ Just a test site to familiarize myself with ReadTheDocs.
 
    This project is under active development.
 
-.. topic:: Examples
-   This is a test topic block.
-   Yeah.
-
 Examples
 --------
-
-.. sidebar:: SidebarName
-   :subtitle: subtitle
-
-.. admonition:: Admonition
 
 .. attention:: Attention! Words here!
    So many, many, many words.
@@ -42,7 +33,24 @@ Examples
 .. deprecated:: 3.23.0.1
 .. versionadded:: 3.22.15.0
 .. versionchanged:: 3.22.16.2
+
 .. math:: 50/(2 + 3x) * damage_multiplier
+
+.. math:: (a + b)^2 = a^2 + 2ab + b^2
+
+.. math::
+
+   (a + b)^2  &=  (a + b)(a + b) \\
+              &=  a^2 + 2ab + b^2
+
+.. math::
+   :nowrap:
+
+   \begin{eqnarray}
+      y    & = & ax^2 + bx + c \\
+      f(x) & = & x^2 + 2xy + y^2
+   \end{eqnarray}
+
 .. raw:: This is raw. I am not sure why this is a content block directive. Presumably it just outputs raw text, which can be done normally.
 
 Contents
