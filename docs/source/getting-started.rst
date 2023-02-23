@@ -35,7 +35,7 @@ Contents
 
 .. toctree::
 
-   AirdropAsset
+   Assets/AirdropAsset
    AnimalAsset
    Animation
    AssetBundleCustomData
