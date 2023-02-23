@@ -21,7 +21,7 @@ project
 3. Navigate to the Bundles/Sources directory.
 4. Import the Project.unitypackage.
 
-Master Bundles (*.masterbundle)
+Master Bundles (\*.masterbundle)
 -------------------------------
 
 Most official files including curated maps have been transitioned to
@@ -92,7 +92,7 @@ quickly convert all existing content. This was handled by keeping the
 file hierarchy 1:1 and guessing the file extension for the by-name
 loading.
 
-Individual Asset Bundles (*.unity3d)
+Individual Asset Bundles (\*.unity3d)
 ------------------------------------
 
 Most official files have transitioned to the master bundle system, but
@@ -121,7 +121,7 @@ by name without extension, so each game type looked for specific names
 like “Item”, “Object”, “Animal”, etc. The .unity3d extension was chosen
 for web browser compatibility. Obviously this system did not age well.
 
-Content Bundles (*.content)*\ DEPRECATED\*
+Content Bundles (\*.content) \*DEPRECATED\*
 ------------------------------------------
 
 This format was historically used by terrain, material palettes, and
