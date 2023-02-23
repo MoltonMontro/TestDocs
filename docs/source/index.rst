@@ -15,9 +15,11 @@ Just a test site to familiarize myself with ReadTheDocs.
    This is a test topic block.
    Yeah.
 
+Examples
+--------
+
 .. sidebar:: SidebarName
    :subtitle: subtitle
-   :subtitle: sup-title
 
 .. admonition:: Admonition
 
