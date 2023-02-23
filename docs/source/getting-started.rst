@@ -29,24 +29,3 @@ This package contains vanilla content examples, and several useful prefabs:
 - Assets/Resources/Characters/Preview.prefab is helpful for previewing clothes.
 
 Note that custom content should NOT be placed into the CoreMasterBundle, instead create a separate directory.
-
-Contents
---------
-
-.. toctree::
-
-   Assets/AirdropAsset
-   AnimalAsset
-   Animation
-   AssetBundleCustomData
-   AssetBundles
-   AssetPtr
-   AssetValidation
-   Bitmask
-   CharacterMeshReplacement
-   CommandIO
-   CommandLine
-   CraftingBlacklistAsset
-   Currency
-   DedicatedWorkshopUpdateMonitor
-   FavoriteSearches
