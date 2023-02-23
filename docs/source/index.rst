@@ -57,5 +57,4 @@ Contents
 .. toctree::
 
    getting-started
-   usage
    api
