@@ -22,7 +22,7 @@ project
 4. Import the Project.unitypackage.
 
 Master Bundles (\*.masterbundle)
--------------------------------
+--------------------------------
 
 Most official files including curated maps have been transitioned to
 master bundles, and they will be used for the forseeable future.
@@ -93,7 +93,7 @@ file hierarchy 1:1 and guessing the file extension for the by-name
 loading.
 
 Individual Asset Bundles (\*.unity3d)
-------------------------------------
+-------------------------------------
 
 Most official files have transitioned to the master bundle system, but
 some uses still exist like the per-map road textures.
@@ -122,7 +122,7 @@ like “Item”, “Object”, “Animal”, etc. The .unity3d extension was cho
 for web browser compatibility. Obviously this system did not age well.
 
 Content Bundles (\*.content) \*DEPRECATED\*
-------------------------------------------
+-------------------------------------------
 
 This format was historically used by terrain, material palettes, and
 radio songs. After the April 23, 2021 patch (version 3.21.15.0) these
