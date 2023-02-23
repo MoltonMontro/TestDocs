@@ -51,9 +51,43 @@ Examples
       f(x) & = & x^2 + 2xy + y^2
    \end{eqnarray}
 
-Contents
---------
+.. Below is the main table-of-content tree of the documentation website.
+   It is hidden on the page itself, but it makes up the sidebar for navigation.
 
 .. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: General
+
+   about
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Getting started
 
    getting-started
+
+.. Sections below are split into two groups. First come meta sections, covering
+   general matters. Below that different areas of the engine are listed.
+   These sections are sorted alphabetically. Please keep them that way.
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Manual
+
+   assets/AirdropAsset
+   assets/AnimalAsset
+   Animation
+   AssetBundleCustomData
+   AssetBundles
+   AssetPtr
+   AssetValidation
+   Bitmask
+   CharacterMeshReplacement
+   CommandIO
+   CommandLine
+   assets/CraftingBlacklistAsset
+   Currency
+   DedicatedWorkshopUpdateMonitor
+   FavoriteSearches
