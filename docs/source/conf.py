@@ -31,5 +31,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_show_sphinx = True # hide "Created using Sphinx" from the HTML footer
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
