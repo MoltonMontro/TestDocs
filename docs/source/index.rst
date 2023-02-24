@@ -73,7 +73,7 @@ Examples
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Manual
+   :caption: Asset Manual
    
    assets/AssetBundleCustomData
    assets/AssetBundles
