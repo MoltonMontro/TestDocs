@@ -51,8 +51,8 @@ Examples
       f(x) & = & x^2 + 2xy + y^2
    \end{eqnarray}
 
-.. Below is the main table-of-content tree of the documentation website.
-   It is hidden on the page itself, but it makes up the sidebar for navigation.
+.. Below is the table-of-content tree for the website,
+   which is hidden from the page but appears in the sidebar.
 
 .. toctree::
    :hidden:
@@ -68,26 +68,38 @@ Examples
 
    getting-started
 
-.. Sections below are split into two groups. First come meta sections, covering
-   general matters. Below that different areas of the engine are listed.
-   These sections are sorted alphabetically. Please keep them that way.
+.. First section has articles on assets (in general).
+   Second section  lists asset types, alphabetically.
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Manual
-
-   assets/AirdropAsset
-   assets/AnimalAsset
-   assets/Animation
+   :caption: Asset Manual
+   
    assets/AssetBundleCustomData
    assets/AssetBundles
    assets/AssetPtr
    assets/AssetValidation
+
+   assets/AirdropAsset
+   assets/AnimalAsset
+   assets/Animation
    assets/Bitmask
    assets/CharacterMeshReplacement
-   CommandIO
-   CommandLine
    assets/CraftingBlacklistAsset
    assets/Currency
-   DedicatedWorkshopUpdateMonitor
-   FavoriteSearches
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Mapping
+
+   mapping/FavoriteSearches
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Servers & Programming
+
+   servers/CommandIO
+   servers/CommandLine
+   servers/DedicatedWorkshopUpdateMonitor
