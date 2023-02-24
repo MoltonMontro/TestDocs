@@ -75,14 +75,14 @@ Examples
    :hidden:
    :maxdepth: 1
    :caption: Manual
-
-   assets/AirdropAsset
-   assets/AnimalAsset
-   assets/Animation
    assets/AssetBundleCustomData
    assets/AssetBundles
    assets/AssetPtr
    assets/AssetValidation
+
+   assets/AirdropAsset
+   assets/AnimalAsset
+   assets/Animation
    assets/Bitmask
    assets/CharacterMeshReplacement
    CommandIO
