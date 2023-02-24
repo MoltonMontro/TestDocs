@@ -78,16 +78,16 @@ Examples
 
    assets/AirdropAsset
    assets/AnimalAsset
-   Animation
-   AssetBundleCustomData
-   AssetBundles
-   AssetPtr
-   AssetValidation
-   Bitmask
-   CharacterMeshReplacement
+   assets/Animation
+   assets/AssetBundleCustomData
+   assets/AssetBundles
+   assets/AssetPtr
+   assets/AssetValidation
+   assets/Bitmask
+   assets/CharacterMeshReplacement
    CommandIO
    CommandLine
    assets/CraftingBlacklistAsset
-   Currency
+   assets/Currency
    DedicatedWorkshopUpdateMonitor
    FavoriteSearches
