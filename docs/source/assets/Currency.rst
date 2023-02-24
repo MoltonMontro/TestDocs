@@ -7,7 +7,7 @@ between the different items, and vendor menus can display information
 using the linked currency. This is intended to be useful beyond
 real-world currencies, e.g. bartering ammunition.
 
-.. figure:: Images/VendorCurrency.jpg
+.. figure:: ../Images/VendorCurrency.jpg
    :alt: P.Riso’s Hot Stuff
 
    P.Riso’s Hot Stuff
