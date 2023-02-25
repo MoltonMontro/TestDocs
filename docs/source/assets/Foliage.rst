@@ -1,4 +1,5 @@
-# Foliage
+Foliage
+=======
 
 This is an [Asset v2](AssetsV2.md) class.
 
