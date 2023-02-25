@@ -1,4 +1,5 @@
-# Level Batching
+Level Batching
+==============
 
 This article is intended for map developers and explains how to maximize draw call batching.
 
