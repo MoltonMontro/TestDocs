@@ -98,6 +98,7 @@ Examples
    assets/LevelAsset
    assets/MasterBundlePtr
    assets/ModHooks
+   assets/NPCAsset/index
    assets/PhysicsMaterialAsset
    assets/SpawnAsset
    assets/StereoSongAsset
