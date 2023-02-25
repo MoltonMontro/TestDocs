@@ -17,3 +17,14 @@ There are additional text formatting features available for NPC localization fil
 **\<br\>**: New line.
 
 **\<pause\>**: Pause dialogue for 0.5 seconds before continuing.
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   
+   Characters
+   Conditions
+   Dialogues
+   Quests
+   Rewards
+   Vendors
