@@ -124,3 +124,8 @@ Examples
    servers/Glazier
    servers/OpenMod
    servers/PortForwarding
+   servers/Rocket
+   servers/RocketMod
+   servers/ServerHosting
+   servers/ServerHostingRules
+   servers/ServerUpdateNotifications
