@@ -1,4 +1,5 @@
-# Troubleshooting
+Troubleshooting
+===============
 
 ## Menus are big and overlapping
 
