@@ -1,4 +1,5 @@
-# Physics Material Asset
+Physics Material Asset
+======================
 
 Work-in-progress feature to allow custom physics effects rather than hardcoding them.
 
