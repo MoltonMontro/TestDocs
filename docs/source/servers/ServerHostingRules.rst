@@ -1,4 +1,5 @@
-# Server Hosting Rules
+Server Hosting Rules
+====================
 
 Servers that violate these rules may be temporarily or permanently banned. To report a server for rule violations, or appeal a moderation decision applied to your server, you may file a ticket with SDG Support:
 
