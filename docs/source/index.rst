@@ -93,6 +93,7 @@ Examples
    assets/EffectAsset
    assets/Foliage
    assets/GUID
+   assets/ItemAsset/index
    assets/ItemData
    assets/Layers
    assets/LevelAsset
