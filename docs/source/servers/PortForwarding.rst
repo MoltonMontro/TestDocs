@@ -1,7 +1,7 @@
 Port Forwarding
 ===============
 
-When hosting a server on a home network __port forwarding__ or [tunneling](#tunneling) is required in order to direct traffic to the host computer. One way to think of it is that when there are multiple devices (e.g. computers and phones) connected to the LAN, the outside internet does not know which device is the Unturned server. In this case port forwarding specifies which LAN device is the host.
+When hosting a server on a home network port forwarding or tunneling (#tunneling) is required in order to direct traffic to the host computer. One way to think of it is that when there are multiple devices (e.g. computers and phones) connected to the LAN, the outside internet does not know which device is the Unturned server. In this case port forwarding specifies which LAN device is the host.
 
 Two pieces of information: the port range and local device address are required prior to port forwarding, and are described in detail below.
 
@@ -46,7 +46,7 @@ In general the steps are along the lines of:
 Tunneling
 ---------
 
-Alternatively, rather than port forwarding, it is possible to use third party service like [playit.gg](https://playit.gg/about) to tunnel connections to the server. Unturned is unaffiliated with playit.gg. Their service is free and supported by the purchase of custom domains / dedicated IPs. They submitted these instructions:
+Alternatively, rather than port forwarding, it is possible to use third party service like playit.gg https://playit.gg/about to tunnel connections to the server. Unturned is unaffiliated with playit.gg. Their service is free and supported by the purchase of custom domains / dedicated IPs. They submitted these instructions:
 
 To create a tunnel for Unturned using playit.gg:
 1. Create a custom tunnel with port type `TCP+UDP`
