@@ -12,6 +12,8 @@ How to test?
 
 In 3.19.18.0 the __reload__ command was introduced which can be used to reload specific assets or directories of assets while playing. Simply reload the physics profile and then respawn a vehicle. For example to reload the default profile:
 
+::
+
 	/reload 6b91a94f01b6472eaca31d9420ec2367
 
 How are vehicles assigned a profile?
