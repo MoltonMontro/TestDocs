@@ -30,7 +30,7 @@ Arena Mode
 
 __Use_Arena_Compactor__ _bool_: Should circles be randomized periodically?
 
-__Arena_Loadouts__: Array of items to grant when spawning into arena. Each entry has a Table_ID spawn table to generate from, and an Amount number of times to grant from spawn table. For example:
+__Arena_Loadouts__: Array of items to grant when spawning into arena. Each entry has a Table_ID spawn table to generate from, and an Amount number of times to grant from spawn table. For example::
 
 	"Arena_Loadouts":
 	[
@@ -47,11 +47,11 @@ __Arena_Loadouts__: Array of items to grant when spawning into arena. Each entry
 General
 -------
 
-__Asset__: Object with GUID of [Level Asset](LevelAsset.md) to instantiate on this map. For example:
+__Asset__: Object with GUID of [Level Asset](LevelAsset.md) to instantiate on this map. For example::
 
 	"Asset": { "GUID": "12dc9fdbe9974022afd21158ad54b76a" }
 
-__Trains__: Array of train vehicles to spawn. Only one of each train asset can exist at a given time because the vehicle ID is used to match saved trains to tracks. Road index can be seen by selecting a road in the level editor. Placement is normalized between the start and end of the track length. For example:
+__Trains__: Array of train vehicles to spawn. Only one of each train asset can exist at a given time because the vehicle ID is used to match saved trains to tracks. Road index can be seen by selecting a road in the level editor. Placement is normalized between the start and end of the track length. For example::
 
 	"Trains":
 	[
@@ -63,7 +63,7 @@ __Trains__: Array of train vehicles to spawn. Only one of each train asset can e
 		}
 	]
 
-__Mode_Config_Overrides__: Pairs of server config properties and values to override them. For example:
+__Mode_Config_Overrides__: Pairs of server config properties and values to override them. For example::
 
 	"Mode_Config_Overrides":
 	{
