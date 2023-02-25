@@ -1,8 +1,7 @@
-_**NOTICE:** This documentation file has been deprecated, and is no longer receiving updates. It has been superceded in favor of the [ItemAsset directory](/ItemAsset), which contains individual documentation files for each item asset class._
+.. deprecated:: This documentation file has been deprecated, and is no longer receiving updates. It has been superceded in favor of the [ItemAsset directory](/ItemAsset), which contains individual documentation files for each item asset class. _This deprecated documentation file will be progressively phased out as the new documentation sources are expanded._
 
-_This deprecated documentation file will be progressively phased out as the new documentation sources are expanded._
-
-----
+ItemData
+++++++++
 
 __Items__ in _Unturned_ encompass anything that can be carried in a player's in-game inventory. All items share some properties, while each item type has its own unique data. Quick links are available below.
 
