@@ -16,6 +16,8 @@ File Format
 
 Any `.asset` file is treated as v2. Lines starting with `//` are comments. Keys and values are wrapped in quotes. Curly braces `{ }` wrap objects and square brackets `[ ]` wrap arrays.
 
+::
+
 	"Key" "Value"
 	"Object"
 	{
@@ -38,6 +40,8 @@ Each asset has a `Metadata` section for preparing to load.
 
 `Type` *string*: Fully qualified name of any class in any module.
 
+::
+
 	"Metadata"
 	{
 		"GUID" "7e4b847061b64272b42ea8869fd053c7"
@@ -48,6 +52,8 @@ Body
 ----
 
 The `Asset` body contains any class properties. Individual asset type documentation elaborates on these.
+
+::
 
 	"Asset"
 	{
