@@ -1,4 +1,5 @@
-# Rocket
+Rocket
+======
 
 SDG maintains a fork of **Rocket** called the Legally Distinct Missile (or LDM) after the resignation of its original community team. Using this fork is recommended because it preserves compatibility, and has fixes for important legacy Rocket issues like multithreading exceptions and teleportation exploits.
 
