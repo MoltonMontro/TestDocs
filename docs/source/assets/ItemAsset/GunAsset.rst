@@ -119,7 +119,7 @@ When using the `Can_Ever_Jam` flag, ranged weapons have a chance of jamming once
 
 ### Magazine Attachments
 
-**Allow_Magazine_Change** *bool*: If false, the magazine in the weapon cannot be unloaded (unplaced), replaced, or reloaded. This is similar to the "Hook_" properties available for determining valid hook attachment slots. Defaults to true.
+**Allow_Magazine_Change** *bool*: If false, the magazine in the weapon cannot be unloaded (unplaced), replaced, or reloaded. This is similar to the "Hook" properties available for determining valid hook attachment slots. Defaults to true.
 
 **Ammo_Max** *byte*: Maximum for the random amount of ammo to generate in the magazine attachment that is attached by default. Defaults to 0.
 
