@@ -15,12 +15,12 @@ __Items__ in _Unturned_ encompass anything that can be carried in a player's in-
 - [Fuel Canisters](#Fuel-Canisters)
 - [Growth Supplements](#Growth-Supplements)
 - [Mapping Equipment](#Mapping-Equipment)
-- [Melee Weapons](#Melee-Weapons)
+- [Melee Weapons]
 - [Optics](#Optics)
 - [Parachutes](#Parachutes)
 - [Projectiles](#Projectiles)
 - [Radiation Filters](#Radiation-Filters)
-- [Ranged Weapons](#Ranged-Weapons)
+- [Ranged Weapons]
 - [Remote Triggers](#Remote-Triggers)
 - [Restraining Devices](#Restraining-Devices)
 - [Structures](#Structures)
@@ -44,8 +44,8 @@ __Override_Show_Quality__:
 __Durability__: Either a decimal probability chance of quality loss upon action, or guaranteed loss and durability value is instead representative of the amount lost.
 
 * _Canteens_: Guaranteed quality loss occurs upon drinking. Durability value represents the amount of quality loss.
-* _Melee Weapons_: Decimal probability chance of quality loss occurs upon hitting.
-* _Ranged Weapons_: Decimal probability chance of quality loss occurs upon shooting.
+* Melee Weapons: Decimal probability chance of quality loss occurs upon hitting.
+* Weapons: Decimal probability chance of quality loss occurs upon shooting.
 
 __Wear__: Increment to degrade quality by. Only applicable to items where durability represents a decimal probability chance of quality loss.
 
