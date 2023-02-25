@@ -66,6 +66,7 @@ Examples
    :maxdepth: 1
    :caption: Getting started
 
+   Troubleshooting
    getting-started
 
 .. First section has articles on assets (in general).
@@ -98,6 +99,13 @@ Examples
    assets/MasterBundlePtr
    assets/ModHooks
    assets/PhysicsMaterialAsset
+   assets/SpawnAsset
+   assets/StereoSongAsset
+   assets/Unity2018
+   assets/Unity2019
+   assets/VehiclePhysicsProfile
+   assets/WeatherAsset
+   assets/ZombieDifficultyAsset
 
 .. toctree::
    :hidden:
