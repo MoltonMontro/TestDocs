@@ -90,6 +90,14 @@ Examples
    assets/CraftingBlacklistAsset
    assets/Currency
    assets/EffectAsset
+   assets/Foliage
+   assets/GUID
+   assets/ItemData
+   assets/Layers
+   assets/LevelAsset
+   assets/MasterBundlePtr
+   assets/ModHooks
+   assets/PhysicsMaterialAsset
 
 .. toctree::
    :hidden:
@@ -99,6 +107,10 @@ Examples
    mapping/CuratedMaps
    mapping/EditorAssetRedirectors
    mapping/FavoriteSearches
+   mapping/Landscape
+   mapping/LevelBatching
+   mapping/LevelConfig
+   mapping/ManualObjectCulling
 
 .. toctree::
    :hidden:
@@ -108,3 +120,7 @@ Examples
    servers/CommandIO
    servers/CommandLine
    servers/DedicatedWorkshopUpdateMonitor
+   servers/GameServerLoginTokens
+   servers/Glazier
+   servers/OpenMod
+   servers/PortForwarding
