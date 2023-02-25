@@ -43,17 +43,17 @@ Continue to: [How to Install Server using SteamCMD](#How-to-Install-Server-using
 How to Install Server using SteamCMD
 ------------------------------------
 
-1. Login to Steam anonymously:
+1. Login to Steam anonymously::
 
 		login anonymous
 
-2. Download the server:
+2. Download the server::
 
 		app_update 1110390
 
 	_Note: this command can also be used to update the server._
 
-3. Close SteamCMD:
+3. Close SteamCMD::
 
 		quit
 
@@ -144,6 +144,8 @@ Common useful commands are:
 
 - __Map__: Specify the map to load by name, otherwise PEI is used.
 
+::
+
 	Examples:
 
 		Map PEI
@@ -151,6 +153,8 @@ Common useful commands are:
 		Map Russia
 
 - __Port__: Running multiple servers simultaneously requires specifying different ports. Unturned uses two consecutive ports. The first is for server list queries, and the second for in-game traffic. Recommended port values are 27015 for the first server, 27017 for the second server, 27019 for the third server, so on and so forth.
+
+::
 
 	Examples:
 
@@ -170,17 +174,19 @@ To include a Workshop file on your server:
 1. Browse to its web page, for example: [Hawaii](https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636)
 2. Copy the file ID from the end of the URL.
 
+::
+
 		URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636
 		ID: 1753134636
 
-3. Insert the file ID into the File_IDs list:
+3. Insert the file ID into the File_IDs list::
 
 		"File_IDs":
 		[
 			1753134636
 		],
 
-	Multiple file IDs should be separated by commas:
+	Multiple file IDs should be separated by commas::
 
 		"File_IDs":
 		[
