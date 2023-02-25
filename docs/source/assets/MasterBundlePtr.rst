@@ -10,6 +10,8 @@ In \*.asset files
 
 `AssetPath`: File path of the Unity asset e.g. \*.prefab, \*.mat, \*.png, \*.ogg, etc. Relative to the `Asset_Prefix` path configured in the `MasterBundle.dat` file.
 
+::	
+	
 	"MyMasterBundlePtr"
 	{
 		"MasterBundle" "core.masterbundle"
@@ -17,5 +19,7 @@ In \*.asset files
 	}
 
 If the asset default master bundle should be used then the path can be specified inline:
+
+::
 
 	"MyMasterBundlePtr" "path/to/file.extension"
