@@ -31,6 +31,11 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    # Toc options
+    'collapse_navigation': False,
+}
+
 html_show_sphinx = False # hide "Created using Sphinx" from the HTML footer
 
 # -- Options for EPUB output
