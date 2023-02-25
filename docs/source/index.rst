@@ -78,6 +78,8 @@ Examples
    assets/AssetBundleCustomData
    assets/AssetBundles
    assets/AssetPtr
+   assets/AssetsV1
+   assets/AssetsV2
    assets/AssetValidation
 
    assets/AirdropAsset
@@ -87,12 +89,15 @@ Examples
    assets/CharacterMeshReplacement
    assets/CraftingBlacklistAsset
    assets/Currency
+   assets/EffectAsset
 
 .. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Mapping
 
+   mapping/CuratedMaps
+   mapping/EditorAssetRedirectors
    mapping/FavoriteSearches
 
 .. toctree::
