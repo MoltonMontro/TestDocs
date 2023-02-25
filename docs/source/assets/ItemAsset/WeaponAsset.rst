@@ -6,7 +6,7 @@ Weapon assets function as a source of damage. The functional implementation of p
 This inherits the [ItemAsset](/ItemAsset/README.md) class.
 
 Weapon Asset Properties
-=======================
+-----------------------
 
 **Allow_Flesh_Fx** *bool*: Boolean for if special effects should occur when damaging flesh. Defaults to true.
 
