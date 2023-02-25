@@ -1,4 +1,5 @@
-# OpenMod
+OpenMod
+=======
 
 [OpenMod](https://github.com/openmod/openmod) is a spiritual successor to [Rocket](Rocket.md) developed by one of Rocket's original maintainers. It has its own plugin framework, but supports compatibility with existing Rocket plugins by integrating with RocketMod and LDM.
 
