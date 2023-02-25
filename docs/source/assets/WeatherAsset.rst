@@ -1,4 +1,5 @@
-# Weather Asset
+Weather Asset
+=============
 
 Overrides the built-in snow and rain weather with custom events. This is feature is a work-in-progress.
 
@@ -9,6 +10,8 @@ This is an [Asset v2](AssetsV2.md) class.
 ## How to test?
 
 When a GUID is passed to the weather command it will start a custom weather event, and 0 can be used to end it.
+
+::
 
 	/weather 819982d7a2b6453488a8c4c5d9efe67f
 
