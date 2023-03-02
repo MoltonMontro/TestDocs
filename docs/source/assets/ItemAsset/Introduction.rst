@@ -7,7 +7,7 @@ Item assets are an [Assets v1](/AssetsV1.md) class. See [AssetBundles.md](/Asset
 
 **Type** *enum* ([`Arrest_End`](/ItemAsset/ArrestEndAsset.md), [`Arrest_Start`](/ItemAsset/ArrestStartAsset.md), [`Backpack`](/ItemAsset/BackpackAsset.md), [`Barrel`](/ItemAsset/BarrelAsset.md), `Barricade`, `Beacon`, `Box`, `Charge`, [`Cloud`](/ItemAsset/CloudAsset.md), [`Compass`](/ItemAsset/MapAsset.md), `Detonator`, `Farm`, [`Filter`](/ItemAsset/FilterAsset.md), `Fisher`, [`Food`](/ItemAsset/FoodAsset.md), `Fuel`, `Generator`, [`Glasses`](/ItemAsset/GlassesAsset.md), [`Grip`](/ItemAsset/GripAsset.md), `Grower`, [`Gun`](/ItemAsset/GunAsset.md), [`Hat`](/ItemAsset/HatAsset.md), `Key`, `Library`, [`Magazine`](/ItemAsset/MagazineAsset.md), [`Map`](/ItemAsset/MapAsset.md), [`Mask`](/ItemAsset/MaskAsset.md), [`Medical`](/ItemAsset/MedicalAsset.md), `Melee`, `Oil_Pump`, [`Optic`](/ItemAsset/OpticAsset.md), [`Pants`](/ItemAsset/PantsAsset.md), `Refill`, `Sentry`, [`Shirt`](/ItemAsset/ShirtAsset.md), [`Sight`](/ItemAsset/SightAsset.md), `Storage`, `Structure`, [`Supply`](/ItemAsset/SupplyAsset.md), [`Tactical`](/ItemAsset/TacticalAsset.md), `Tank`, [`Throwable`](/ItemAsset/ThrowableAsset.md), `Tire`, `Tool`, `Trap`, `Vehicle_Repair_Tool`, [`Vest`](/ItemAsset/VestAsset.md), [`Water`](/ItemAsset/WaterAsset.md))
 
-**Rarity** *enum* (`Common`, `Uncommon`, `Rare`, `Epic`, `Legendary`, `Mythical`): Rarity of the item, as text shown in menus and colors used for highlights. Defaults to Common rarity.
+**Rarity** *enum* (``Common``, ``Uncommon``, ``Rare``, ``Epic``, ``Legendary``, ``Mythical``): Rarity of the item, as text shown in menus and colors used for highlights. Defaults to Common rarity.
 
 **Useable** *enum*: Class for how to treat equippable items. Defaults to None.
 
