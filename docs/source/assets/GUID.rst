@@ -1,4 +1,4 @@
-.. _GUID:
+.. _doc_assets_guid:
 
 GUID
 ====
