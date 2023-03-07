@@ -67,6 +67,7 @@ Examples
    :caption: Getting started
 
    Troubleshooting
+   data-types
    getting-started
 
 .. First section has articles on assets (in general).
