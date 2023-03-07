@@ -1,3 +1,6 @@
+Data types
+==========
+
 .. autosummary::
    :toctree: generated
 
