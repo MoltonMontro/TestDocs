@@ -7,7 +7,7 @@ Data types
 
    * - Data type
      - Description
-   * - :ref:`GUID <_doc_assets_guid>`
+   * - :ref:`GUID <doc_assets_guid>`
      - Globally Unique Identifiers (GUIDs) are 32 hexadecimal digits used to identify assets. They are preferable to file names because the files can be moved without redirectors.
    * - Flag
      - Flags are true if the property is present, and false if they are absent.
