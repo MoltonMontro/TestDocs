@@ -1,8 +1,6 @@
 Welcome to Molt's test documentation!
 =====================================
 
-Just a test site to familiarize myself with ReadTheDocs.
-
 .. note::
 
    This project is under active development.
@@ -57,15 +55,9 @@ Examples
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: General
-
-   about
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
    :caption: Getting started
 
+   about
    Troubleshooting
    getting-started
 
