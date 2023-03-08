@@ -57,10 +57,10 @@ Examples
    :maxdepth: 1
    :caption: Getting started
 
-   about
-   Troubleshooting
-   data-types
-   getting-started
+   about/about
+   about/troubleshooting
+   about/data-types
+   about/getting-started
 
 .. First section has articles on assets (in general).
    Second section  lists asset types, alphabetically.
