@@ -55,7 +55,7 @@ Examples
    :maxdepth: 1
    :caption: Getting started
 
-   about/about
+   about/introduction
    about/troubleshooting
    about/data-types
    servers/CommandLine
