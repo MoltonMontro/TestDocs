@@ -17,3 +17,12 @@ Data types
      - When one asset refers to another asset, it does so using an asset pointer. These identify the target asset by their GUID.
    * - :ref:`u32 mask <doc_assets_bitmask>`
      - A mask or bitmask is data used for bitwise operations.
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   assets/AssetPtr
+   assets/Bitmask
+   assets/GUID
+   assets/MasterBundlePtr
