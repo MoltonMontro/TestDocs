@@ -22,7 +22,7 @@ Data types
    :hidden:
    :maxdepth: 1
 
-   assets/AssetPtr
-   assets/Bitmask
-   assets/GUID
-   assets/MasterBundlePtr
+   ../assets/AssetPtr
+   ../assets/Bitmask
+   ../assets/GUID
+   ../assets/MasterBundlePtr
