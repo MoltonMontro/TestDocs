@@ -32,9 +32,7 @@ Examples
 .. versionadded:: 3.22.15.0
 .. versionchanged:: 3.22.16.2
 
-.. math:: 50/(2 + 3x) * damage_multiplier
-
-.. math:: (a + b)^2 = a^2 + 2ab + b^2
+.. math:: 50/(2 + 3x) * damage_multiplier + (a + b)^2 = a^2 + 2ab + b^2
 
 .. math::
 
@@ -60,6 +58,11 @@ Examples
    about/about
    about/troubleshooting
    about/data-types
+   servers/CommandLine
+   assets/AssetPtr
+   assets/Bitmask
+   assets/GUID
+   assets/MasterBundlePtr
    about/getting-started
 
 .. First section has articles on assets (in general).
@@ -71,7 +74,6 @@ Examples
    
    assets/AssetBundleCustomData
    assets/AssetBundles
-   assets/AssetPtr
    assets/AssetsV1
    assets/AssetsV2
    assets/AssetValidation
@@ -79,18 +81,15 @@ Examples
    assets/AirdropAsset
    assets/AnimalAsset
    assets/Animation
-   assets/Bitmask
    assets/CharacterMeshReplacement
    assets/CraftingBlacklistAsset
    assets/Currency
    assets/EffectAsset
    assets/Foliage
-   assets/GUID
    assets/ItemAsset/index
    assets/ItemData
    assets/Layers
    assets/LevelAsset
-   assets/MasterBundlePtr
    assets/ModHooks
    assets/NPCAsset/index
    assets/PhysicsMaterialAsset
@@ -121,7 +120,6 @@ Examples
    :caption: Servers & Programming
 
    servers/CommandIO
-   servers/CommandLine
    servers/DedicatedWorkshopUpdateMonitor
    servers/GameServerLoginTokens
    servers/Glazier
