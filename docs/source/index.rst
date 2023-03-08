@@ -66,7 +66,7 @@ Examples
    about/getting-started
 
 .. First section has articles on assets (in general).
-   Second section  lists asset types, alphabetically.
+   Second section lists asset types, alphabetically.
 .. toctree::
    :hidden:
    :maxdepth: 1
