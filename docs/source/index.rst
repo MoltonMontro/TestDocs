@@ -59,10 +59,6 @@ Examples
    about/troubleshooting
    about/data-types
    servers/CommandLine
-   assets/AssetPtr
-   assets/Bitmask
-   assets/GUID
-   assets/MasterBundlePtr
    about/getting-started
 
 .. First section has articles on assets (in general).
