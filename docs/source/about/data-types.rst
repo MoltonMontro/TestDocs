@@ -15,7 +15,7 @@ Data types
      - Identifies a Unity asset such as a prefab, material, or audio clip within a master bundle.
    * - :ref:`asset pointer <doc_assets_assetptr>`
      - When one asset refers to another asset, it does so using an asset pointer. These identify the target asset by their GUID.
-   * - :ref:`u32 mask <doc_assets_bitmask>`
+   * - `u32 mask <../assets/bitmask.html>`
      - A mask or bitmask is data used for bitwise operations.
 
 .. toctree::
