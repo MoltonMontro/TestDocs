@@ -10,3 +10,4 @@ Hello world.
    :hidden:
    :maxdepth: 1
    :caption: Documentation
+   index
