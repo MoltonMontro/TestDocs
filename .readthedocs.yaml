@@ -6,8 +6,9 @@ build:
     python: "3.8"
 
 sphinx:
-  fail_on_warning: true
+  fail_on_warning: true # Make warnings more visible by forcing build to fail
 
+# Enabling PDF and EPUB builds, for offline use
 formats:
   - pdf
   - epub
