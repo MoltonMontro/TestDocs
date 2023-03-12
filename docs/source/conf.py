@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = "Molt's Test Docs"
-copyright = '2023, Molt'
-author = 'Molt'
+project = "U3 Docs"
+copyright = '2023, Smartly Dressed Games'
+author = 'Smartly Dressed Games'
 
 release = '0.1'
 version = '0.1.0'
