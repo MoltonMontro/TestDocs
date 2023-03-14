@@ -6,12 +6,12 @@ Considerations
 
 Upgrading terrain from the legacy editor to the devkit editor is not necessarily recommended.
 
-Pros:
+**Pros:**
 
 * Height sculpting and material painting tools are better.
 * Each 1km x 1km tile has its own set of 8 materials rather than 8 for the entire level.
 
-Cons:
+**Cons:**
 
 * Devkit is not user-friendly, and improvements to it have been voted low priority.
 * Not all legacy editor features were ported (yet?), so the landscape has to be edited separately from roads, lighting, etc.
