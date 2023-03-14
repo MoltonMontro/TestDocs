@@ -20,13 +20,14 @@ Menu Visibility
 One key component of sharing a curated map, trending popular workshop item, or specifically featured map is spotlighting it on the main menu. In any of these cases an article is placed above the recent news and announcements showcasing the preview image, and an expandable description.
 
 In-game the description supports the following BBCode tags:
-- [b]
-- [i]
-- [list]
-- [*]
-- [h1]
-- [img]
-- [url]
+
+* [b]
+* [i]
+* [list]
+* [*]
+* [h1]
+* [img]
+* [url]
 
 Ideally descriptions are kept succinct, so separate discussion topics might be a better place for long sections like ID lists.
 
@@ -70,18 +71,20 @@ Occasionally, there may be situations where an alternative to traditional profan
 
 In some situations, it may be better to replace large swaths of text on content such as lore notes with *\[REDACTED]* or *\[UNINTELLIGIBLE]*. Such redactions should be open to interpretation as to what may have been intended, and make sense within the context of the source material. Redactions should not be treated as a method of censoring individual words.
 
-### Drugs, alcohol, and other substances
+Drugs, alcohol, and other substances
+````````````````````````````````````
 
 Explicit depictions of drugs, alcohol, and other substances is not allowed. Although, maps may implement more family-friendly content that is similar in idea, such as berry mixes instead of alcohol. Maps may also choose to implement content that merely has looser, more distant association. Such as vineyards, bottles, kegs, or distilleries.
 
-### Inappropriate content
+Inappropriate content
+`````````````````````
 
 The depicition of sexual content, or explicit references regarding sexual content, are prohibited in all forms.
 
 Stockpile Preparation
 ---------------------
 
-Each curated map release is usually accompanied by a few cosmetics and skins in the game's item store. Royalties from the sales are shared with the mod team. Even if a project is not eligible for curation, it may be appropriate to have some support-the-creator items in the Stockpile. For example, the [Stockpile bundles](https://store.steampowered.com/itemstore/304930/browse/?searchtext=%22Rootbeer+Ranger+Bundle%22+%22Cottontail+Ops+Bundle%22) created for the [Candyland map](https://steamcommunity.com/sharedfiles/filedetails/?id=1776871385).
+Each curated map release is usually accompanied by a few cosmetics and skins in the game's item store. Royalties from the sales are shared with the mod team. Even if a project is not eligible for curation, it may be appropriate to have some support-the-creator items in the Stockpile. For example, the `Stockpile bundles <https://store.steampowered.com/itemstore/304930/browse/?searchtext=%22Rootbeer+Ranger+Bundle%22+%22Cottontail+Ops+Bundle%22>`_ created for the `Candyland map <https://steamcommunity.com/sharedfiles/filedetails/?id=1776871385>`_.
 
 **File Sharing**: Ideally the items have been setup for use as clothes in-game, and then exported into a .unitypackage. This package will then be imported into the vanilla project.
 
