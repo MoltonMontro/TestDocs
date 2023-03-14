@@ -31,3 +31,4 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    :caption: Documentation
    
    Troubleshooting
+   GettingStarted
