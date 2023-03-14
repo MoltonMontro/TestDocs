@@ -15,9 +15,9 @@ Project.unitypackage
 
 This package contains the barebones required to export custom content:
 
-- `[Asset Bundling Tools <AssetBundles.rst>`_
+- `Asset Bundling Tools <AssetBundles.rst>`_
 - Default Project Settings
-- `[(Optional) Mod Hooks <ModHooks.rst>`_
+- `(Optional) Mod Hooks <ModHooks.rst>`_
 
 ExampleAssets.unitypackage
 --------------------------
