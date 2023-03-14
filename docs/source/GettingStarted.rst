@@ -1,7 +1,7 @@
 Getting Started
 ===============
 
-Installing the Unity Editor is required for exporting custom content into the game. Any 2019.4 LTS version should be compatible. [View Download Links](https://unity3d.com/unity/qa/lts-releases?version=2019.4)
+Installing the Unity Editor is required for exporting custom content into the game. Any 2019.4 LTS version should be compatible. `View Download Links <https://unity3d.com/unity/qa/lts-releases?version=2019.4>`_
 
 Once Unity is installed a project can be created to house custom content. At this point it is recommended to import Unturned's provided source packages:
 
@@ -15,9 +15,9 @@ Project.unitypackage
 
 This package contains the barebones required to export custom content:
 
-- [Asset Bundling Tools](AssetBundles.md)
+- `[Asset Bundling Tools <AssetBundles.rst>`_
 - Default Project Settings
-- [(Optional) Mod Hooks](ModHooks.md)
+- `[(Optional) Mod Hooks <ModHooks.rst>`_
 
 ExampleAssets.unitypackage
 --------------------------
