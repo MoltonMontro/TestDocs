@@ -122,7 +122,7 @@ Steam Cloud
 -----------
 
 Your stored files can be found at:
-`C:\Program Files (x86)\Steam\userdata\ (your steam id) \304930`
+``C:\Program Files (x86)\Steam\userdata\ (your steam id) \304930``
 
 View Workshop Files
 -------------------
