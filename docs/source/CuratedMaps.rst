@@ -63,7 +63,8 @@ Age Appropriacy
 
 All official and curated game content should be what is typically considered family-friendly. As such, there are various restrictions on the type of content that maps seeking curation are allowed implement.
 
-### Profanity
+Profanity
+`````````
 
 Curated maps should not contain profanity. Objects, story notes, NPC dialogue, quest descriptions, and other such text should be devoid of any profanity. Profanity is anything considered heavy or mild cursing, slurs, or strongly implied.
 
