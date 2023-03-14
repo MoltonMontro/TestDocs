@@ -21,3 +21,13 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 * `Spawn Tables <https://www.youtube.com/watch?v=7Aiz7utMx8g>`_
 
 * `Building Models <https://www.youtube.com/watch?v=rAZ9KEGjSUk>`_
+
+.. Below is the table-of-content tree for the website,
+   which is hidden from the page but appears in the sidebar.
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Documentation
+   
+   Troubleshooting
