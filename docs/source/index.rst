@@ -10,14 +10,14 @@ Video Tutorials
 
 Several older tutorial videos are gradually becoming outdated and don't represent the current development direction, but are listed here for completeness:
 
-* [Uploading Skins to the Curated Workshop](https://www.youtube.com/watch?v=rF4YvEuxse8)
+* `Uploading Skins to the Curated Workshop <https://www.youtube.com/watch?v=rF4YvEuxse8>`_
 
-* [Creating Custom Songs](https://www.youtube.com/watch?v=wXpk7o9Dr4k)
+* `Creating Custom Songs <https://www.youtube.com/watch?v=wXpk7o9Dr4k>`_
 
-* [Quick Overview of First Version of Foliage Upgrade](https://www.youtube.com/watch?v=VVt2bRcAWv4)
+* `Quick Overview of First Version of Foliage Upgrade <https://www.youtube.com/watch?v=VVt2bRcAWv4>`_
 
-* [Devkit 101 + Landscapes Overview](https://www.youtube.com/watch?v=fkljCH419ug)
+* `Devkit 101 + Landscapes Overview <https://www.youtube.com/watch?v=fkljCH419ug>`_
 
-* [Spawn Tables](https://www.youtube.com/watch?v=7Aiz7utMx8g)
+* `Spawn Tables <https://www.youtube.com/watch?v=7Aiz7utMx8g>`_
 
-* [Building Models](https://www.youtube.com/watch?v=rAZ9KEGjSUk)
+* `Building Models <https://www.youtube.com/watch?v=rAZ9KEGjSUk>`_
