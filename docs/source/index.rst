@@ -1,7 +1,7 @@
 Unturned Documentation
 ======================
 
-This repository exists to document `Unturned <https://store.steampowered.com/app/304930>`_'s modding features going forward. Originally map and asset documentation was created through Steam Guides. The main guide with links to related guides can be found here: `Workshop: Creating, Publishing & Updating <https://steamcommunity.com/sharedfiles/filedetails/?id=460136012>`_
+This repository exists to document `Unturned <https://store.steampowered.com/app/304930>`_'s modding features going forward. Originally map and asset documentation was created through Steam Guides. The main guide with links to related guides can be found here: `Workshop: Creating, Publishing & Updating <https://steamcommunity.com/sharedfiles/filedetails/?id=460136012>`_.
 
 Video Tutorials
 ---------------
