@@ -6,7 +6,7 @@ This repository exists to document [Unturned's](https://store.steampowered.com/a
 Video Tutorials
 ---------------
 
-[How to host a Dedicated Server on Windows](https://www.youtube.com/watch?v=8axVrnSLlx4)
+`How to host a Dedicated Server on Windows <https://www.youtube.com/watch?v=8axVrnSLlx4>`_
 
 Several older tutorial videos are gradually becoming outdated and don't represent the current development direction, but are listed here for completeness:
 
