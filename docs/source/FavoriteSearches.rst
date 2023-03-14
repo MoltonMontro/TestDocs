@@ -1,7 +1,7 @@
 Favorite Searches
 =================
 
-The objects editor supports __Favorite Searches__ which allows lists of objects to be quickly looked up.
+The objects editor supports **Favorite Searches** which allows lists of objects to be quickly looked up.
 
 Entering "fv:xyz" in the search bar loads xyz.txt from the game folder, and will match any of the lines in the file. Empty lines and lines starting with "//" (comments) are ignored. The .txt file extension was chosen because it is the notepad default.
 
