@@ -12,7 +12,7 @@ For background information on the purpose of batching:
 Enabling batching in your level
 -------------------------------
 
-By default batching is disabled because some parts of the level may be incompatible (causing graphical bugs), the texture atlas might be too big, it might worsen performance, etc. Publishing your map with batching enabled is only recommended after double-checking each location in singleplayer. (batching is disabled in the level editor) You can test it by adding this property to your level's `Config.json` file:
+By default batching is disabled because some parts of the level may be incompatible (causing graphical bugs), the texture atlas might be too big, it might worsen performance, etc. Publishing your map with batching enabled is only recommended after double-checking each location in singleplayer. (batching is disabled in the level editor) You can test it by adding this property to your level's `Config.json` file::
 
 	"Batching_Version": 2
 
@@ -39,7 +39,7 @@ Custom/Foliage: default trees/bushes.
 Excluding specific objects and resources from batching
 ------------------------------------------------------
 
-If you know your asset is incompatible you can add this line to the .dat file:
+If you know your asset is incompatible you can add this line to the .dat file::
 
 	Exclude_From_Level_Batching true
 
