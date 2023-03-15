@@ -70,6 +70,8 @@ Previewing renderers using atlas
 
 You can visualize which renderers have been included in the texture atlas by loading singleplayer with the ``-PreviewLevelBatchingTextureAtlas`` launch option:
 
-.. image:: images/TextureAtlasPreview.jpg
+.. figure:: images/TextureAtlasPreview.jpg
+
+	Berlin with texture atlas preview enabled.
 
 All renderers in white were merged into a single material per shader. It is not necessarily bad that some materials were not merged. For example, the HVAC units on the rooftops in the screenshot all share a material already, so they are able to use static batching together. The same goes for the roads and overpass.
