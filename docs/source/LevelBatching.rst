@@ -5,9 +5,9 @@ This article is intended for map developers and explains how to maximize draw ca
 
 For background information on the purpose of batching:
 
-- [Optimizing draw calls (Unity docs)](https://docs.unity3d.com/Manual/optimizing-draw-calls.html)
-- [Texture atlas (Wikipedia)](https://en.wikipedia.org/wiki/Texture_atlas)
-- [Static batching (Unity docs)](https://docs.unity3d.com/Manual/static-batching.html)
+- `Optimizing draw calls (Unity docs) <https://docs.unity3d.com/Manual/optimizing-draw-calls.html>`_
+- `Texture atlas (Wikipedia) <https://en.wikipedia.org/wiki/Texture_atlas>`_
+- `Static batching (Unity docs) <https://docs.unity3d.com/Manual/static-batching.html>`_
 
 Enabling batching in your level
 -------------------------------
@@ -66,6 +66,6 @@ Previewing renderers using atlas
 
 You can visualize which renderers have been included in the texture atlas by loading singleplayer with the `-PreviewLevelBatchingTextureAtlas` launch option:
 
-![Berlin with texture atlas preview enabled](Images/TextureAtlasPreview.jpg)
+![Berlin with texture atlas preview enabled](images/TextureAtlasPreview.jpg)
 
 All renderers in white were merged into a single material per shader. It is not necessarily bad that some materials were not merged. For example, the HVAC units on the rooftops in the screenshot all share a material already, so they are able to use static batching together. The same goes for the roads and overpass.
