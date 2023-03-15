@@ -30,7 +30,7 @@ Arena Mode
 
 **Use_Arena_Compactor** *bool*: Should circles be randomized periodically?
 
-**Arena_Loadouts**: Array of items to grant when spawning into arena. Each entry has a Table_ID spawn table to generate from, and an Amount number of times to grant from spawn table. For example:
+**Arena_Loadouts**: Array of items to grant when spawning into arena. Each entry has a Table_ID spawn table to generate from, and an Amount number of times to grant from spawn table. For example::
 
 	"Arena_Loadouts":
 	[
