@@ -6,24 +6,24 @@ Each level is associated with an optional Config.json file. These files were ori
 Main Menus
 ----------
 
-__Creators__ _string[]_: Names in credits.
+**Creators** *string[]*: Names in credits.
 
-__Collaborators__ _string[]_: Names in credits.
+**Collaborators** *string[]*: Names in credits.
 
-__Thanks__ _string[]_: Names in credits.
+**Thanks** *string[]*: Names in credits.
 
-__Associated_Stockpile_Items__ _int[]_: Economy itemdefids to feature on map screens. One is chosen at random each time the map is shown. Used by curated maps to link their items which have payment splits.
+**Associated_Stockpile_Items** *int[]*: Economy itemdefids to feature on map screens. One is chosen at random each time the map is shown. Used by curated maps to link their items which have payment splits.
 
-__Feedback__ _string_: URL to discussions. If not explicitly set, defaults to the workshop item's discussions page.
+**Feedback** *string*: URL to discussions. If not explicitly set, defaults to the workshop item's discussions page.
 
-__Visible_In_Matchmaking__ _bool_: Should this map be listed in the matchmaking menu? Used to filter out test and demo maps.
+**Visible_In_Matchmaking** *bool*: Should this map be listed in the matchmaking menu? Used to filter out test and demo maps.
 
-__Version__ _string_: #.#.#.# format version number. Vanilla version numbers use 3.Year.Update.Patch, but that is optional. Incrementing the version number for every upload is good practice because:
+**Version** *string*: #.#.#.# format version number. Vanilla version numbers use 3.Year.Update.Patch, but that is optional. Incrementing the version number for every upload is good practice because:
 
 1. When client and server files do not match it is more helpful to show a version number error message rather than a generic file mismatch error.
 2. Searching by map in the server browser can filter servers running the same version of the map.
 
-__Tips__ _int_: Number of Tip_# keys defined in level's localization files, if any. Overrides vanilla tip messages on the loading screen.
+**Tips** *int*: Number of Tip_# keys defined in level's localization files, if any. Overrides vanilla tip messages on the loading screen.
 
 Arena Mode
 ----------
