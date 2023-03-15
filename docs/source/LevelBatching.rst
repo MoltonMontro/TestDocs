@@ -12,7 +12,9 @@ For background information on the purpose of batching:
 Enabling batching in your level
 -------------------------------
 
-By default batching is disabled because some parts of the level may be incompatible (causing graphical bugs), the texture atlas might be too big, it might worsen performance, etc. Publishing your map with batching enabled is only recommended after double-checking each location in singleplayer. (batching is disabled in the level editor) You can test it by adding this property to your level's `Config.json` file::
+By default batching is disabled because some parts of the level may be incompatible (causing graphical bugs), the texture atlas might be too big, it might worsen performance, etc. Publishing your map with batching enabled is only recommended after double-checking each location in singleplayer. (batching is disabled in the level editor) You can test it by adding this property to your level's `Config.json` file:
+
+.. codeblock:: json
 
 	"Batching_Version": 2
 
