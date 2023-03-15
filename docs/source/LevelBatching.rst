@@ -43,7 +43,7 @@ Excluding specific objects and resources from batching
 
 If you know your asset is incompatible you can add this line to the .dat file:
 
-.. code-block:: json
+.. code-block:: dat
 
 	Exclude_From_Level_Batching true
 
