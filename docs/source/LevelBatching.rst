@@ -55,7 +55,7 @@ None of the messages logged are "errors" per se. It only explains why the game c
 Validating UVs
 --------------
 
-When textures are merged into an atlas any meshes referencing them need their UV coordinates updated. If any UVs are outside the 0-1 square they will now be overlapping a completely different texture and appear incorrectly. You can use the `-ValidateLevelBatchingUVs` launch option to log any batched meshes with out-of-bounds UVs. For example this error with the vanilla chess board: 
+When textures are merged into an atlas any meshes referencing them need their UV coordinates updated. If any UVs are outside the 0-1 square they will now be overlapping a completely different texture and appear incorrectly. You can use the `-ValidateLevelBatchingUVs` launch option to log any batched meshes with out-of-bounds UVs. For example this error with the vanilla chess board::
 
 	Mesh "Model_0" in renderer "Chess_0/Model_0" has UVs outside [0, 1] range (should be excluded from level batching)
 
