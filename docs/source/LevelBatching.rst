@@ -63,7 +63,7 @@ When textures are merged into an atlas any meshes referencing them need their UV
 
 	Mesh "Model_0" in renderer "Chess_0/Model_0" has UVs outside [0, 1] range (should be excluded from level batching)
 
-In the case of the chess board it was a mistake in the unwrapping which was then fixed, but in most cases this would suggest the mesh relies on `Wrap Mode` being `Repeat`.
+In the case of the chess board it was a mistake in the unwrapping which was then fixed, but in most cases this would suggest the mesh relies on ``Wrap Mode`` being ``Repeat``.
 
 Previewing renderers using atlas
 --------------------------------
