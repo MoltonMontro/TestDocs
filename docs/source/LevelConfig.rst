@@ -81,90 +81,90 @@ __Mode_Config_Overrides__: Pairs of server config properties and values to overr
 		"Gameplay.Allow_Shoulder_Camera": false
 	}
 
-__Allow_Underwater_Features__ _bool_: Should legacy details and navigation bounds be restricted underwater?
+**Allow_Underwater_Features** *bool*: Should legacy details and navigation bounds be restricted underwater?
 
-__Terrain_Snow_Sparkle__ _bool_: Should IS_SNOWING shader keyword be enabled?
+**Terrain_Snow_Sparkle** *bool*: Should IS_SNOWING shader keyword be enabled?
 
-__Use_Legacy_Clip_Borders__ _bool_: Should invisible walls matching map size be created? Defaults to true.
+**Use_Legacy_Clip_Borders** *bool*: Should invisible walls matching map size be created? Defaults to true.
 
-__Use_Legacy_Ground__ _bool_: Should default terrain be created? Alternative is to use devkit landscape tiles. Defaults to true.
+**Use_Legacy_Ground** *bool*: Should default terrain be created? Alternative is to use devkit landscape tiles. Defaults to true.
 
-__Use_Legacy_Water__ _bool_: Should global water plane be enabled? Alternative is to use water volumes in devkit. Defaults to true.
+**Use_Legacy_Water** *bool*: Should global water plane be enabled? Alternative is to use water volumes in devkit. Defaults to true.
 
-__Use_Vanilla_Bubbles__ _bool_: Should vanilla water bubble effects be enabled? Defaults to true.
+**Use_Vanilla_Bubbles** *bool*: Should vanilla water bubble effects be enabled? Defaults to true.
 
-__Use_Legacy_Snow_Height__ _bool_: Should travelling vertically past snow height threshold enable snow effects? Defaults to true.
+**Use_Legacy_Snow_Height** *bool*: Should travelling vertically past snow height threshold enable snow effects? Defaults to true.
 
-__Use_Legacy_Oxygen_Height__ _bool_: Should travelling vertically past a certain point deplete oxygen? Defaults to true.
+**Use_Legacy_Oxygen_Height** *bool*: Should travelling vertically past a certain point deplete oxygen? Defaults to true.
 
-__Use_Rain_Volumes__ _bool_: Should rain flag in ambiance volume be used?
+**Use_Rain_Volumes** *bool*: Should rain flag in ambiance volume be used?
 
-__Use_Snow_Volumes__ _bool_: Should snow flag in ambiance volume be used?
+**Use_Snow_Volumes** *bool*: Should snow flag in ambiance volume be used?
 
-__Use_Underground_Whitelist__ _bool_: Should underground players not inside a whitelist volume be teleported to the terrain surface? Useful to curb out-of-bounds exploits.
+**Use_Underground_Whitelist** *bool*: Should underground players not inside a whitelist volume be teleported to the terrain surface? Useful to curb out-of-bounds exploits.
 
-__Is_Aurora_Borealis_Visible__ _bool_: Should aurora borealis effects be enabled?
+**Is_Aurora_Borealis_Visible** *bool*: Should aurora borealis effects be enabled?
 
-__Snow_Affects_Temperature__ _bool_: Should snow inflict cold damage?
+**Snow_Affects_Temperature** *bool*: Should snow inflict cold damage?
 
-__Weather_Override__ _ELevelWeatherOverride_: Can be set to rain or snow to lock weather type.
+**Weather_Override** *ELevelWeatherOverride*: Can be set to rain or snow to lock weather type.
 
-__Has_Atmosphere__ _bool_: If false, disable stars in skybox.
+**Has_Atmosphere** *bool*: If false, disable stars in skybox.
 
-__Has_Global_Electricity__ _bool_: Should all powerable items and objects have power by default?
+**Has_Global_Electricity** *bool*: Should all powerable items and objects have power by default?
 
-__Gravity__ _float_: Acceleration of gravity. Defaults to -9.81.
+**Gravity** *float*: Acceleration of gravity. Defaults to -9.81.
 
-__Blimp_Altitude__ _float_: Height override for blimp buoyancy. Defaults to 150.
+**Blimp_Altitude** *float*: Height override for blimp buoyancy. Defaults to 150.
 
-__Max_Walkable_Slope__ _float_: Steepest ground angle players can walk without sliding. Defaults to 59.
+**Max_Walkable_Slope** *float*: Steepest ground angle players can walk without sliding. Defaults to 59.
 
-__Prevent_Building_Near_Spawnpoint_Radius__ _float_: Closest distance players can build to spawn points. Useful to override for close-quarters maps. Defaults to 16.
+**Prevent_Building_Near_Spawnpoint_Radius** *float*: Closest distance players can build to spawn points. Useful to override for close-quarters maps. Defaults to 16.
 
-__Spawn_Loadouts__ Array of items to grant when spawning in any mode. Refer to Arena_Loadouts.
+**Spawn_Loadouts**: Array of items to grant when spawning in any mode. Refer to Arena_Loadouts.
 
-__Allow_Holiday_Redirects__ _bool_: Whether certain assets like objects, trees and landscapes should load alternative versions during holiday events.
+**Allow_Holiday_Redirects** *bool*: Whether certain assets like objects, trees and landscapes should load alternative versions during holiday events.
 
 HUD
 ---
 
 Disable various elements of the heads-up display.
 
-__PlayerUI_HealthVisible__ bool
+**PlayerUI_HealthVisible** *bool*
 
-__PlayerUI_FoodVisible__ bool
+**PlayerUI_FoodVisible** *bool*
 
-__PlayerUI_WaterVisible__ bool
+**PlayerUI_WaterVisible** *bool*
 
-__PlayerUI_VirusVisible__ bool
+**PlayerUI_VirusVisible** *bool*
 
-__PlayerUI_StaminaVisible__ bool
+**PlayerUI_StaminaVisible** *bool*
 
-__PlayerUI_OxygenVisible__ _bool_
+**PlayerUI_OxygenVisible** *_bool_*
 
-__PlayerUI_GunVisible__ _bool_
+**PlayerUI_GunVisible** *_bool_*
 
-__Allow_Crafting__ bool
+**Allow_Crafting** *bool*
 
-__Allow_Skills__ bool
+**Allow_Skills** *bool*
 
-__Allow_Information__ bool
+**Allow_Information** *bool*
 
 Deprecated
 ----------
 
-__Can_Use_Bundles__ _bool_: Used in the past for timed curated maps to disable using their assets in the level editor which could break after moving the map from the vanilla content to the workshop.
+**Can_Use_Bundles** *bool*: Used in the past for timed curated maps to disable using their assets in the level editor which could break after moving the map from the vanilla content to the workshop.
 
-__Category__ _ESingleplayerMapCategory_: Mostly automated now. Can be set to Misc to explicitly show in the miscellaneous map category.
+**Category** *ESingleplayerMapCategory*: Mostly automated now. Can be set to Misc to explicitly show in the miscellaneous map category.
 
-__Has_Discord_Rich_Presence__ _bool_: Only valid for official maps. If discord integration is enabled and this flag is true discord will check for a map icon configured in their partner page.
+**Has_Discord_Rich_Presence** *bool*: Only valid for official maps. If discord integration is enabled and this flag is true discord will check for a map icon configured in their partner page.
 
-__Item__ _int_: Kept for backwards compatibility. Ignored if Associated_Stockpile_Items are set.
+**Item** *int*: Kept for backwards compatibility. Ignored if Associated_Stockpile_Items are set.
 
-__Load_From_Resources__ _bool_: Used in the past for curated maps with assets in the vanilla Resources/Bundles/* directory. Master Bundles completely replaced this.
+**Load_From_Resources** *bool*: Used in the past for curated maps with assets in the vanilla Resources/Bundles/* directory. Master Bundles completely replaced this.
 
-__Should_Verify_Objects_Hash__ _bool_: With the newer asset integrity checks this is obsolete because each object/tree used in the level is checked with the server, and ignored if the server is missing the asset. Trees.dat and Objects.dat can always be included because missing assets do not factor into those hashes anymore.
+**Should_Verify_Objects_Hash** *bool*: With the newer asset integrity checks this is obsolete because each object/tree used in the level is checked with the server, and ignored if the server is missing the asset. Trees.dat and Objects.dat can always be included because missing assets do not factor into those hashes anymore.
 
-__Use_Legacy_Fog_Height__ _bool_: Should default terrain height be used for fog falloff? If false, devkit landscape tile limits are used instead. Defaults to true.
+**Use_Legacy_Fog_Height** *bool*: Should default terrain height be used for fog falloff? If false, devkit landscape tile limits are used instead. Defaults to true.
 
-__Use_Legacy_Objects__ _bool_: Should objects be loaded from Objects.dat file? Devkit objects were moved into this file, so this option no longer has any effect.
+**Use_Legacy_Objects** *bool*: Should objects be loaded from Objects.dat file? Devkit objects were moved into this file, so this option no longer has any effect.
