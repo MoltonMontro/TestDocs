@@ -38,7 +38,7 @@ Most vanilla buildings come with default culling volumes which are not selectabl
 
 This is an area for future improvement, so I would not necessary recommend for/against adding them to your own objects. The following options are very old and poorly named, but can be specified in your object's .dat file to automatically create a culling volume:
 
-**LOD** *enum*: Can be set to `Mesh` or `Area`. `Mesh` uses the bounds of renderers, and `Area` uses the size of Occlusion Area components. Note the Occlusion Area component's do not have any special functionality. At the time it was a workaround to allow placement in Unity with an otherwise unused component.
+**LOD** *enum*: Can be set to ``Mesh`` or ``Area``. ``Mesh`` uses the bounds of renderers, and ``Area`` uses the size of Occlusion Area components. Note the Occlusion Area component's do not have any special functionality. At the time it was a workaround to allow placement in Unity with an otherwise unused component.
 
 **LOD_Bias** *float*: Multiplier for the default 64m culling distance. For example, 2 would be visible up to 128m.
 
@@ -49,4 +49,4 @@ This is an area for future improvement, so I would not necessary recommend for/a
 Testing culling volume performance benefit
 ------------------------------------------
 
-If you would like to check whether culling volumes are providing any benefit you can run the game with the `-DisableCullingVolumes` launch option. Dense areas like Seattle tend to have the most noticeable difference.
+If you would like to check whether culling volumes are providing any benefit you can run the game with the ``-DisableCullingVolumes`` launch option. Dense areas like Seattle tend to have the most noticeable difference.
