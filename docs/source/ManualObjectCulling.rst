@@ -25,6 +25,8 @@ Excluding specific objects
 
 If you know your asset should never be managed by culling volumes you can add this line to the .dat file:
 
+.. code-block:: c#
+	
 	Exclude_From_Culling_Volumes true
 
 For example, the aerospace facility on Germany is excluded so that the manually placed culling volumes can hide large objects like shipping containers without accidentally hiding the giant structure. Note: volumes owned by objects automatically exclude their owner object.
