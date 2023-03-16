@@ -5,7 +5,9 @@ This article is intended for map developers and explains **Manual Object Culling
 
 Drawing fewer objects is usually better for performance. Culling volumes allow you to override the distance at which the contained objects are drawn where otherwise they might be drawn much further away than necessary. For example, by default the vanilla chair models are visible from quite far away in case they are placed outdoors, whereas inside an office building they only need to be seen while near the building.
 
-![Building in Moscow with culling volumes](Images/CullingVolumes.jpg)
+.. figure:: images/CullingVolumes.jpg
+	
+	A building in Moscow with culling volumes.
 
 This comes with an obvious downside: when zooming in on most buildings it is readily apparent that the furniture is missing. I experimented with some workarounds like enabling objects near the center of your view while zoomed, but it did not feel any better. In my opinion the performance trade-off is worth it. "Large" objects like shipping containers that have higher gameplay importance as cover are excluded by default, and most buildings have their culling volumes inset from the edges slightly so that objects in the windows are excluded.
 
