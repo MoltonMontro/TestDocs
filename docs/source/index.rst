@@ -32,10 +32,22 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    
    Troubleshooting
    GettingStarted
+   CommandLine
+   CommandIO
    CuratedMaps
+   DedicatedWorkshopUpdateMonitor
    EditorAssetRedirectors
    FavoriteSearches
+   GameServerLoginTokens
+   Glazier
    Landscape
    LevelBatching
    LevelConfig
    ManualObjectCulling
+   OpenMod
+   PortForwarding
+   Rocket
+   RocketMod
+   ServerHosting
+   ServerHostingRules
+   ServerUpdateNotifications
