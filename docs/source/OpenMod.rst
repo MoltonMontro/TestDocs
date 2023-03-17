@@ -9,8 +9,7 @@ Installation
 Installing OpenMod Using the RocketMod Installer Plugin (recommended)
 `````````````````````````````````````````````````````````````````````
 
-1. Download the latest OpenMod Installer Plugin for RocketMod from the `
-OpenMod.Installer.RocketMod repository <https://github.com/openmod/OpenMod.Installer.RocketMod/releases/latest>`_.
+1. Download the latest OpenMod Installer Plugin for RocketMod from the `OpenMod.Installer.RocketMod repository <https://github.com/openmod/OpenMod.Installer.RocketMod/releases/latest>`_.
 2. Move it to the ``/Rocket/Plugins`` folder and restart your server.
 3. Run ``/openmod install`` and follow the instructions.
 4. Done! Now you can `start installing plugins <https://openmod.github.io/openmod-docs/userdoc/concepts/plugins.html>`_.
