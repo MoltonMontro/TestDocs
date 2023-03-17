@@ -1,12 +1,12 @@
 Server Update Notifications
 ===========================
 
-Change logs are available on the [Steam News Hub](https://store.steampowered.com/news/app/304930). For quick notifications with the game version number and Steam build ID consider one of the following:
+Change logs are available on the `Steam News Hub <https://store.steampowered.com/news/app/304930>`_. For quick notifications with the game version number and Steam build ID consider one of the following:
 
 Discord
 -------
 
-Messages are posted to the #dedicated-server-updates text channel on the [Official Discord Server](https://discord.gg/unturned) via web hook. Each message has fields with the game version number and Steam build ID.
+Messages are posted to the #dedicated-server-updates text channel on the `Official Discord Server <https://discord.gg/unturned>`_ via web hook. Each message has fields with the game version number and Steam build ID.
 
 RSS
 ---
