@@ -3,7 +3,7 @@ Server Hosting
 
 All multiplayer servers are hosted using the Unturned Dedicated Server tool (sometimes abbreviated to U3DS). This tool can either be installed and updated using Valve's [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) tool, or (not recommended) managed through your Steam Library. Using SteamCMD is ideal and has several benefits, but is not strictly necessary. If you are not using SteamCMD, some of the documentation may not apply to you.
 
-__Multiplatform:__
+**Multiplatform:**
 - [How to Install Server using SteamCMD](#How-to-Install-Server-using-SteamCMD)
 - [How to Install Server without SteamCMD](#How-to-Install-Server-without-SteamCMD)
 - [How to Configure Server](#How-to-Configure-Server)
@@ -15,12 +15,12 @@ __Multiplatform:__
 - [Update Notifications](ServerUpdateNotifications.md)
 - [Rules and Guidelines](ServerHostingRules.md)
 
-__Windows:__
+**Windows:**
 - [How to Install SteamCMD](#How-to-Install-SteamCMD-on-Windows)
 - [How to Launch Server](#How-to-Launch-Server-on-Windows)
 - [Video Tutorial](https://www.youtube.com/watch?v=8axVrnSLlx4)
 
-__Linux:__
+**Linux:**
 - [How to Install SteamCMD](#How-to-Install-SteamCMD-on-Linux)
 - [How to Launch Server](#How-to-Launch-Server-on-Linux)
 
@@ -29,7 +29,7 @@ How to Install SteamCMD on Windows
 
 1. [Download From Here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 2. Extract the contents of the zip somewhere you can find it again.
-3. Run `steamcmd.exe`
+3. Run ``steamcmd.exe``
 
 Continue to: [How to Install Server using SteamCMD](#How-to-Install-Server-using-SteamCMD)
 
@@ -45,19 +45,25 @@ How to Install Server using SteamCMD
 
 1. Login to Steam anonymously:
 
-		login anonymous
+.. code-block:: bash
+	
+	login anonymous
 
 2. Download the server:
 
-		app_update 1110390
+.. code-block:: bash
+	
+	app_update 1110390
 
-	_Note: this command can also be used to update the server._
+	*Note: this command can also be used to update the server.*
 
 3. Close SteamCMD:
 
-		quit
+.. code-block:: bash
+	
+	quit
 
-4. The server files are now in the `...SteamCMD\steamapps\common\U3DS` directory.
+4. The server files are now in the ``...SteamCMD\steamapps\common\U3DS`` directory.
 
 Continue to: [How to Launch Server on Windows](#How-to-Launch-Server-on-Windows) or [How to Launch Server on Linux](#How-to-Launch-Server-on-Linux)
 
@@ -85,22 +91,22 @@ Continue to: [How to Launch Server on Windows](#How-to-Launch-Server-on-Windows)
 How to Launch Server on Windows
 -------------------------------
 
-1. Navigate to the `...\SteamCMD\steamapps\common\U3DS` directory.
+1. Navigate to the ``...\SteamCMD\steamapps\common\U3DS`` directory.
 2. Create a new text file by right-clicking an empty space within the U3DS directory, and selecting New > Text Document. This will create a new text file called "New Text Document.txt".
-	1. **If the file name does not display the `.txt` file extension, then you need to enable the viewing of "File name extensions".**
+	1. **If the file name does not display the ``.txt`` file extension, then you need to enable the viewing of "File name extensions".**
 	2. At the top of the File Explorer window, navigate to the View tab on the ribbon.
 	3. In the Show/hide section of options, ensure that the "File name extensions" box is checked.
-	![File name extensions](Images/FileNameExtensions.jpg)
+	.. image:: images/FileNameExtensions.jpg	
 	4. File extensions should now be displayed at the end of file names.
 3. Rename the "New Text Document.txt" file, and change it from a text file (.txt) to a batch script file (.bat). For example, "Tutorial.bat".
-4. Right-click on the batch script (`Tutorial.bat`) and select Edit. This will open the batch file in your default text editor, although any text editor (e.g., Notepad, WordPad, Notepad++) can be used.
+4. Right-click on the batch script (``Tutorial.bat``) and select Edit. This will open the batch file in your default text editor, although any text editor (e.g., Notepad, WordPad, Notepad++) can be used.
 5. Add the script that will start your server when the batch script is ran.
-	* For an internet server, copy-and-paste the following text into the file: `start "" "%~dp0ServerHelper.bat" +InternetServer/MyServer`
-	* For a LAN server, copy-and-paste the following text into the file: `start "" "%~dp0ServerHelper.bat" +LanServer/MyServer`
+	* For an internet server, copy-and-paste the following text into the file: ``start "" "%~dp0ServerHelper.bat" +InternetServer/MyServer``
+	* For a LAN server, copy-and-paste the following text into the file: ``start "" "%~dp0ServerHelper.bat" +LanServer/MyServer``
 
-	_Note: running an internet server will require opening ports on your router (this is called "port forwarding")._
+	*Note: running an internet server will require opening ports on your router (this is called "port forwarding").*
 
-	In this example "MyServer" is used as the ServerID for savedata and configuration purposes; you may choose to replace "MyServer" with a different name. For an example batch script, open the built-in `ExampleServer.bat` file in a text editor._
+	In this example "MyServer" is used as the ServerID for savedata and configuration purposes; you may choose to replace "MyServer" with a different name. For an example batch script, open the built-in `ExampleServer.bat` file in a text editor.
 
 6. Save your changes to the file, and close the file.
 7. Double-click the batch script to launch the server. A command-line interface should appear. Because this is the first time we have ran the batch file, it is going to generate a bunch of necessary server files.
