@@ -55,7 +55,7 @@ How to Install Server using SteamCMD
 	
 	app_update 1110390
 
-	*Note: this command can also be used to update the server.*
+*Note: this command can also be used to update the server.*
 
 3. Close SteamCMD:
 
