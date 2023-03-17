@@ -1,7 +1,7 @@
 Port Forwarding
 ===============
 
-When hosting a server on a home network **port forwarding** or :ref:`tunneling <tunneling>` is required in order to direct traffic to the host computer. One way to think of it is that when there are multiple devices (e.g. computers and phones) connected to the LAN, the outside internet does not know which device is the Unturned server. In this case port forwarding specifies which LAN device is the host.
+When hosting a server on a home network **port forwarding** or :ref:`tunneling <OpenMod:Tunneling>` is required in order to direct traffic to the host computer. One way to think of it is that when there are multiple devices (e.g. computers and phones) connected to the LAN, the outside internet does not know which device is the Unturned server. In this case port forwarding specifies which LAN device is the host.
 
 Two pieces of information: the port range and local device address are required prior to port forwarding, and are described in detail below.
 
