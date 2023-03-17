@@ -153,7 +153,7 @@ Common useful commands are:
 
 - **Map**: Specify the map to load by name, otherwise PEI is used.
 
-	Examples:
+Examples:
 
 .. code-block:: c#
 	
@@ -163,7 +163,7 @@ Common useful commands are:
 
 - **Port**: Running multiple servers simultaneously requires specifying different ports. Unturned uses two consecutive ports. The first is for server list queries, and the second for in-game traffic. Recommended port values are 27015 for the first server, 27017 for the second server, 27019 for the third server, so on and so forth.
 
-	Examples:
+Examples:
 
 .. code-block:: c#
 	
@@ -175,19 +175,23 @@ Common useful commands are:
 - **Perspective**: Can be set to "First", "Third", "Both", or "Vehicle" to change camera options.
 - **Cheats**: Allows admins to invoke cheat commands like spawning items or vehicles from the chat.
 
-Game rules, listing display, and many other options are available in the `Config.json` file. Game options mirror the in-game Play > Singleplayer > Config menu. This file deserves further documentation, but is not officially documented yet.
+Game rules, listing display, and many other options are available in the ``Config.json`` file. Game options mirror the in-game Play > Singleplayer > Config menu. This file deserves further documentation, but is not officially documented yet.
 
-Steam Workshop add-ons (e.g., maps, items, vehicles) are setup in the `WorkshopDownloadConfig.json` file.
+Steam Workshop add-ons (e.g., maps, items, vehicles) are setup in the ``WorkshopDownloadConfig.json`` file.
 To include a Workshop file on your server:
 
 1. Browse to its web page, for example: [Hawaii](https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636)
 2. Copy the file ID from the end of the URL.
 
+.. code-block:: c#
+	
 		URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636
 		ID: 1753134636
 
 3. Insert the file ID into the File_IDs list:
 
+.. code-block:: c#
+	
 		"File_IDs":
 		[
 			1753134636
@@ -195,6 +199,8 @@ To include a Workshop file on your server:
 
 	Multiple file IDs should be separated by commas:
 
+.. code-block:: c#
+	
 		"File_IDs":
 		[
 			1753134636,
@@ -205,7 +211,7 @@ To include a Workshop file on your server:
 
 ### How to Host Curated Maps
 
-Curated maps are available as workshop items, so are configured in the `WorkshopDownloadConfig.json` file. During startup the Map command searches installed workshop items for a matching name.
+Curated maps are available as workshop items, so are configured in the ``WorkshopDownloadConfig.json`` file. During startup the Map command searches installed workshop items for a matching name.
 
 Alphabetically sorted list of curated map file IDs:
 
