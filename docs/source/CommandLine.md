@@ -12,7 +12,7 @@ Game options
 
 Some command-line arguments are primarily intended for use with the Unturned Dedicated Server app.
 
-**+connect**: Connect to a server, in the format of `+connect <ip address>:<port>`.
+**+connect**: Connect to a server, in the format of ``+connect <ip address>:<port>``.
 
 **-DisableCullingVolumes**: Disable object culling distance overrides. Please refer to [Manual Object Culling](ManualObjectCulling.md) for more details.
 
@@ -30,13 +30,13 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-GameSense**: GameSense integration.
 
-**-Glazier=** *enum* (`IMGUI`): Use the legacy IMGUI rather than the default uGUI.
+**-Glazier=** *enum* (``IMGUI``): Use the legacy IMGUI rather than the default uGUI.
 
-**-h** *int*: Alias of `-height`.
+**-h** *int*: Alias of ``-height``.
 
 **-height** *int*: Override in-game resolution height.
 
-**-Holiday=** *enum* (`AprilFools`, `Christmas`, `Halloween`, `HW`, `Valentines`, `XMAS`): Override the active holiday.
+**-Holiday=** *enum* (``AprilFools``, ``Christmas``, ``Halloween``, ``HW``, ``Valentines``, ``XMAS``): Override the active holiday.
 
 **-HostPlayerLimit=** *int*: Clamps max number of players to this number. Useful for hosting providers.
 
@@ -46,7 +46,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-LogLevelBatchingTextureAtlasExclusions**: Please refer to [Level Batching](LevelBatching.md) for more details.
 
-**-NetTransport=** *enum* (`SteamNetworking`, `SteamNetworkingSockets`): SteamNetworkingSockets was used to enable the [ISteamNetworkingSockets](https://partner.steamgames.com/doc/api/ISteamNetworkingSockets) networking API, but this has since become default. SteamNetworking can be used to revert to the older, deprecated [ISteamNetworking](https://partner.steamgames.com/doc/api/ISteamNetworking) networking API.
+**-NetTransport=** *enum* (``SteamNetworking``, ``SteamNetworkingSockets``): SteamNetworkingSockets was used to enable the [ISteamNetworkingSockets](https://partner.steamgames.com/doc/api/ISteamNetworkingSockets) networking API, but this has since become default. SteamNetworking can be used to revert to the older, deprecated [ISteamNetworking](https://partner.steamgames.com/doc/api/ISteamNetworking) networking API.
 
 **-NoDefaultLog**: Disables log file creation unless a plugin calls setLogFilePath.
 
@@ -66,15 +66,15 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-SkipAssets**: Disable loading asset bundles and Workshop content. This is useful for quickly iterating on serverside code.
 
-**-ui_scale**: UI scale override. A common usage is to set UI scale back to its default scaling, with `-ui_scale 1`.
+**-ui_scale**: UI scale override. A common usage is to set UI scale back to its default scaling, with ``-ui_scale 1``.
 
-**-UseLevelBatching** *bool*: Overrides whether level batching can be enabled. Per-level support for level batching is still required. For example `-UseLevelBatching=false` disables it. Please refer to [Level Batching](LevelBatching.md) for more details.
+**-UseLevelBatching** *bool*: Overrides whether level batching can be enabled. Per-level support for level batching is still required. For example ``-UseLevelBatching=false`` disables it. Please refer to [Level Batching](LevelBatching.md) for more details.
 
 **-ValidateAssets**: Perform [additional health checks](AssetValidation.md) on assets during start-up.
 
 **-ValidateLevelBatchingUVs**: Please refer to [Level Batching](LevelBatching.md) for more details.
 
-**-w** *int*: Alias of `-width`.
+**-w** *int*: Alias of ``-width``.
 
 **-width** *int*: Override in-game resolution width.
 
