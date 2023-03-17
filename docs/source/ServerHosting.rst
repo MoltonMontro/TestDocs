@@ -97,7 +97,7 @@ How to Launch Server on Windows
 	2. At the top of the File Explorer window, navigate to the View tab on the ribbon.
 	3. In the Show/hide section of options, ensure that the "File name extensions" box is checked.
 	
-.. image:: images/FileNameExtensions.jpg
+	.. image:: images/FileNameExtensions.jpg
 
 	4. File extensions should now be displayed at the end of file names.
 3. Rename the "New Text Document.txt" file, and change it from a text file (.txt) to a batch script file (.bat). For example, "Tutorial.bat".
@@ -108,33 +108,34 @@ How to Launch Server on Windows
 
 	*Note: running an internet server will require opening ports on your router (this is called "port forwarding").*
 
-	In this example "MyServer" is used as the ServerID for savedata and configuration purposes; you may choose to replace "MyServer" with a different name. For an example batch script, open the built-in `ExampleServer.bat` file in a text editor.
+	In this example "MyServer" is used as the ServerID for savedata and configuration purposes; you may choose to replace "MyServer" with a different name. For an example batch script, open the built-in ``ExampleServer.bat`` file in a text editor.
 
 6. Save your changes to the file, and close the file.
 7. Double-click the batch script to launch the server. A command-line interface should appear. Because this is the first time we have ran the batch file, it is going to generate a bunch of necessary server files.
-	![U3DS command-line interface](Images/InterfaceU3DS.jpg)
 
-8. When the command-line interface stops outputting new lines of text, it has finished loading (and finished generating all necessary files). You can safely close the server by executing (typing, and then pressing the "↵ Enter" key on your keyboard) the following command on the command-line interface: `shutdown`
+.. image:: images/InterfaceU3DS.jpg
 
-9. The batch script has created a new file directory located in `...\U3DS\Servers`, called "MyServer". This directory is where all the savedata and configuration files are kept. Changing the `MyServer` ServerID (from step 5) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
+8. When the command-line interface stops outputting new lines of text, it has finished loading (and finished generating all necessary files). You can safely close the server by executing (typing, and then pressing the "↵ Enter" key on your keyboard) the following command on the command-line interface: ``shutdown``
+
+9. The batch script has created a new file directory located in ``...\U3DS\Servers``, called "MyServer". This directory is where all the savedata and configuration files are kept. Changing the `MyServer` ServerID (from step 5) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
 
 10. (optional) For your server to be visible on the in-game internet server list you will need to set a [Login Token](GameServerLoginTokens.md) and configure [Port Forwarding](PortForwarding.md).
 
 How to Launch Server on Linux
 -----------------------------
 
-1. Navigate to the `.../SteamCMD/steamapps/common\U3DS` directory.
+1. Navigate to the ``.../SteamCMD/steamapps/common\U3DS`` directory.
 2. To create our server, we need to execute a command.
-	* For an internet server run the following command: `./ServerHelper.sh +InternetServer/MyServer`
-	* For a LAN server run the following command: `./ServerHelper.sh +LanServer/MyServer`
+	* For an internet server run the following command: ``./ServerHelper.sh +InternetServer/MyServer``
+	* For a LAN server run the following command: ``./ServerHelper.sh +LanServer/MyServer``
 
-	_Note: running an internet server will require opening ports on your router (this is called "port forwarding")._
+	*Note: running an internet server will require opening ports on your router (this is called "port forwarding").*
 
-	In this example "MyServer" is used as the ServerID for savedata and configuration purposes; you may choose to replace "MyServer" with a different name. For an example script, open the built-in `ExampleServer.sh` file in a text editor._
+	In this example "MyServer" is used as the ServerID for savedata and configuration purposes; you may choose to replace "MyServer" with a different name. For an example script, open the built-in ``ExampleServer.sh`` file in a text editor.
 
-3. You can safely close the server by executing (typing, and then pressing the "↵ Enter" key on your keyboard) the following command on the command-line interface: `shutdown`
+3. You can safely close the server by executing (typing, and then pressing the "↵ Enter" key on your keyboard) the following command on the command-line interface: ``shutdown``
 
-4. The executed command has created a new file directory located in .../U3DS/Servers, called "MyServer". This directory is where all the savedata and configuration files are kept. Changing the `MyServer` ServerID (from step 2) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
+4. The executed command has created a new file directory located in ``.../U3DS/Servers``, called "MyServer". This directory is where all the savedata and configuration files are kept. Changing the ``MyServer`` ServerID (from step 2) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
 
 5. (optional) For your server to be visible on the in-game internet server list you will need to set a [Login Token](GameServerLoginTokens.md) and configure [Port Forwarding](PortForwarding.md).
 
@@ -146,29 +147,33 @@ Each individual ServerID has its own savedata and configuration.
 1. Determine the ServerID. This is the name after the +InternetServer/ or +LanServer/ command.
 2. Navigate to U3DS > Servers > ServerID.
 
-Launch commands are setup in the Server > `Commands.dat` file. Each line should have one command.
+Launch commands are setup in the Server > ``Commands.dat`` file. Each line should have one command.
 
 Common useful commands are:
 
-- __Map__: Specify the map to load by name, otherwise PEI is used.
+- **Map**: Specify the map to load by name, otherwise PEI is used.
 
 	Examples:
 
-		Map PEI
-		Map Washington
-		Map Russia
+.. code-block:: c#
+	
+	Map PEI
+	Map Washington
+	Map Russia
 
-- __Port__: Running multiple servers simultaneously requires specifying different ports. Unturned uses two consecutive ports. The first is for server list queries, and the second for in-game traffic. Recommended port values are 27015 for the first server, 27017 for the second server, 27019 for the third server, so on and so forth.
+- **Port**: Running multiple servers simultaneously requires specifying different ports. Unturned uses two consecutive ports. The first is for server list queries, and the second for in-game traffic. Recommended port values are 27015 for the first server, 27017 for the second server, 27019 for the third server, so on and so forth.
 
 	Examples:
 
+.. code-block:: c#
+	
 		Port 27015
 		Port 27017
 
-- __Name__: Name of the server on the server list; set as "Unturned" by default.
-- __Password__: Requires password to join server. Note that password is only SHA1 hashed, so don't use the same password anywhere else.
-- __Perspective__: Can be set to "First", "Third", "Both", or "Vehicle" to change camera options.
-- __Cheats__: Allows admins to invoke cheat commands like spawning items or vehicles from the chat.
+- **Name**: Name of the server on the server list; set as "Unturned" by default.
+- **Password**: Requires password to join server. Note that password is only SHA1 hashed, so don't use the same password anywhere else.
+- **Perspective**: Can be set to "First", "Third", "Both", or "Vehicle" to change camera options.
+- **Cheats**: Allows admins to invoke cheat commands like spawning items or vehicles from the chat.
 
 Game rules, listing display, and many other options are available in the `Config.json` file. Game options mirror the in-game Play > Singleplayer > Config menu. This file deserves further documentation, but is not officially documented yet.
 
