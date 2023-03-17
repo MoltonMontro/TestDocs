@@ -197,7 +197,7 @@ To include a Workshop file on your server:
 			1753134636
 		],
 
-	Multiple file IDs should be separated by commas:
+Multiple file IDs should be separated by commas:
 
 .. code-block:: c#
 	
@@ -209,7 +209,8 @@ To include a Workshop file on your server:
 
 4. During startup the files will be updated, and any dependencies detected. Players will have the files downloaded while connecting to the server.
 
-### How to Host Curated Maps
+How to Host Curated Maps
+````````````````````````
 
 Curated maps are available as workshop items, so are configured in the ``WorkshopDownloadConfig.json`` file. During startup the Map command searches installed workshop items for a matching name.
 
