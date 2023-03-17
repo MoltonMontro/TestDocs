@@ -15,6 +15,7 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
+    "sphinx.ext.autosectionlabel", # create explicit targets for all sections in the form of {path/to/page}:{title-of-section}
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 ]
