@@ -13,18 +13,18 @@ The dedicated server includes the latest version, so an external download is not
 Resources
 ---------
 
-Browse the source code for the maintained version: [Legally Distinct Missile Repository](https://github.com/SmartlyDressedGames/Legally-Distinct-Missile)
+Browse the source code for the maintained version: `Legally Distinct Missile Repository <https://github.com/SmartlyDressedGames/Legally-Distinct-Missile>`_.
 
-fr34kyn01535 has listed all of the original plugins in a post to the /r/RocketMod subreddit: [List of plugins from the old repository](https://www.reddit.com/r/rocketmod/comments/ek4i7b/)
+fr34kyn01535 has listed all of the original plugins in a post to the /r/RocketMod subreddit: `List of plugins from the old repository <https://www.reddit.com/r/rocketmod/comments/ek4i7b/>`_.
 
-Following closure of the original forum the recommended sites for developer discussion are the [/r/UnturnedLDM](https://www.reddit.com/r/UnturnedLDM/) subreddit, [SDG Forum](https://forum.smartlydressedgames.com/c/modding/ldm), or the [Steam Discussions](https://steamcommunity.com/app/304930/discussions/17/).
+Following closure of the original forum the recommended sites for developer discussion are the `/r/UnturnedLDM <https://www.reddit.com/r/UnturnedLDM/>`_ subreddit, `SDG Forum <https://forum.smartlydressedgames.com/c/modding/ldm>`_, or the `Steam Discussions <https://steamcommunity.com/app/304930/discussions/17/>`_.
 
 The RocketMod organization on GitHub hosts several related archived projects: [RocketMod (Abandoned)](https://github.com/RocketMod)
 
 History
 -------
 
-On the 20th of December 2019 Sven Mawby "fr34kyn01535" and Enes Sadık Özbek "Trojaner" officially ceased maintenance of Rocket. They kindly released the source code under the MIT license. [Read their full farewell statement here.](https://github.com/RocketMod/Rocket/blob/master/Farewell.md)
+On the 20th of December 2019 Sven Mawby "fr34kyn01535" and Enes Sadık Özbek "Trojaner" officially ceased maintenance of Rocket. They kindly released the source code under the MIT license. `Read their full farewell statement here <https://github.com/RocketMod/Rocket/blob/master/Farewell.md>`_.
 
 Following their resignation SDG forked the repository to continue maintenance in sync with the game.
 
