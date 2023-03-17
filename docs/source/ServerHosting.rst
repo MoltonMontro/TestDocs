@@ -96,7 +96,9 @@ How to Launch Server on Windows
 	1. **If the file name does not display the ``.txt`` file extension, then you need to enable the viewing of "File name extensions".**
 	2. At the top of the File Explorer window, navigate to the View tab on the ribbon.
 	3. In the Show/hide section of options, ensure that the "File name extensions" box is checked.
-.. image:: images/FileNameExtensions.jpg
+	
+	.. image:: images/FileNameExtensions.jpg
+
 	4. File extensions should now be displayed at the end of file names.
 3. Rename the "New Text Document.txt" file, and change it from a text file (.txt) to a batch script file (.bat). For example, "Tutorial.bat".
 4. Right-click on the batch script (``Tutorial.bat``) and select Edit. This will open the batch file in your default text editor, although any text editor (e.g., Notepad, WordPad, Notepad++) can be used.
