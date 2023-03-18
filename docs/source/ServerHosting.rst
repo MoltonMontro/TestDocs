@@ -5,22 +5,22 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Multiplatform:**
 
-- [How to Install Server using SteamCMD](#How-to-Install-Server-using-SteamCMD)
-- [How to Install Server without SteamCMD](#How-to-Install-Server-without-SteamCMD)
-- [How to Configure Server](#How-to-Configure-Server)
-- [How to Host Curated Maps](#How-to-Host-Curated-Maps)
-- [How to Host Over Internet](#How-to-Host-Over-Internet)
-- [Port Forwarding](PortForwarding.md)
-- [Rocket](Rocket.md)
-- [Login Tokens](GameServerLoginTokens.md)
-- [Update Notifications](ServerUpdateNotifications.md)
-- [Rules and Guidelines](ServerHostingRules.md)
+- `How to Install Server using SteamCMD <ServerHosting/How-to-Install-Server-using-SteamCMD>`_
+- `How to Install Server without SteamCMD <ServerHosting/How-to-Install-Server-without-SteamCMD>`_
+- `How to Configure Server <ServerHosting/How-to-Configure-Server>`_
+- `How to Host Curated Maps <ServerHosting/How-to-Host-Curated-Maps>`_
+- `How to Host Over Internet <ServerHosting/How-to-Host-Over-Internet>`_
+- `Port Forwarding <PortForwarding.md>`_
+- `Rocket <Rocket.md>`_
+- `Login Tokens <GameServerLoginTokens.md>`_
+- `Update Notifications <ServerUpdateNotifications.md>`_
+- `Rules and Guidelines <ServerHostingRules.md>`_
 
 **Windows:**
 
-- [How to Install SteamCMD](#How-to-Install-SteamCMD-on-Windows)
-- [How to Launch Server](#How-to-Launch-Server-on-Windows)
-- [Video Tutorial](https://www.youtube.com/watch?v=8axVrnSLlx4)
+- `How to Install SteamCMD <ServerHosting/How-to-Install-SteamCMD-on-Windows>`_
+- `How to Launch Server <ServerHosting/How-to-Launch-Server-on-Windows>`_
+- `Video Tutorial <https://www.youtube.com/watch?v=8axVrnSLlx4>`_
 
 **Linux:**
 
