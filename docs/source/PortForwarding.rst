@@ -18,6 +18,7 @@ Local Device Address
 Forwarding the ports directs them to a LAN address, i.e. the computer hosting the server. To determine the local IP on Windows:
 
 1. Press Windows + R to open the Run dialog.
+
 2. Type ``cmd`` and press enter.
 3. Type ``ipconfig`` in the command prompt and press enter.
 4. Find the ``Wireless LAN adapter Wi-Fi`` or ``Ethernet adapter Ethernet`` header.
@@ -31,10 +32,15 @@ Instructions vary by router, but should be doable from the web browser without a
 In general the steps are along the lines of:
 
 1. Connect to router via web browser.
+
 2. Login with home admin credentials.
+
 3. Find Port Forwarding menu.
+
 4. Find the option to add a new rule.
+
 5. Name the new rule something related to Unturned for reference.
+
 6. Input 27015 as the starting port(s) and 27016 as the ending port(s).
 
 .. note::
@@ -42,7 +48,9 @@ In general the steps are along the lines of:
 	On some routers it might not be possible to input multiple ports within a single rule. In that case multiple rules can be setup; one for each of the two ports.
 
 7. Enable UDP protocol.
+
 8. Set destination internal IP to the local host address.
+
 9. Save the new rule.
 
 Tunneling
