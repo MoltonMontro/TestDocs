@@ -37,6 +37,8 @@ In general the steps are along the lines of:
 5. Name the new rule something related to Unturned for reference.
 6. Input 27015 as the starting port(s) and 27016 as the ending port(s).
 
+.. note::
+	
 	On some routers it might not be possible to input multiple ports within a single rule. In that case multiple rules can be setup; one for each of the two ports.
 
 7. Enable UDP protocol.
