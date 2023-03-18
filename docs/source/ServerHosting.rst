@@ -24,8 +24,8 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Linux:**
 
-- [How to Install SteamCMD](#How-to-Install-SteamCMD-on-Linux)
-- [How to Launch Server](#How-to-Launch-Server-on-Linux)
+- :ref:`How to Install SteamCMD <ServerHosting:How to Install SteamCMD on Linux>`
+- :ref:`How to Launch Server <ServerHosting:How to Launch Server on Linux>`
 
 How to Install SteamCMD on Windows
 ----------------------------------
@@ -34,14 +34,14 @@ How to Install SteamCMD on Windows
 2. Extract the contents of the zip somewhere you can find it again.
 3. Run ``steamcmd.exe``
 
-Continue to: [How to Install Server using SteamCMD](#How-to-Install-Server-using-SteamCMD)
+Continue to: `How to Install Server using SteamCMD <How-to-Install-Server-using-SteamCMD>`_
 
 How to Install SteamCMD on Linux
 --------------------------------
 
-Installation on Linux varies by distribution and your admin preferences, so refer to [Valve's Linux Documentation](https://developer.valvesoftware.com/wiki/SteamCMD#Linux). Once downloaded, run the `steamcmd.sh` script.
+Installation on Linux varies by distribution and your admin preferences, so refer to `Valve's Linux Documentation <https://developer.valvesoftware.com/wiki/SteamCMD#Linux>`_. Once downloaded, run the ``steamcmd.sh`` script.
 
-Continue to: [How to Install Server using SteamCMD](#How-to-Install-Server-using-SteamCMD)
+Continue to: :ref:`How to Install Server using SteamCMD <ServerHosting:How-to-Install-Server-using-SteamCMD>`
 
 How to Install Server using SteamCMD
 ------------------------------------
