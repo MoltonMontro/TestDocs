@@ -5,16 +5,16 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Multiplatform:**
 
-- `How to Install Server using SteamCMD <ServerHosting/How-to-Install-Server-using-SteamCMD>`_
-- `How to Install Server without SteamCMD <ServerHosting/How-to-Install-Server-without-SteamCMD>`_
-- `How to Configure Server <ServerHosting/How-to-Configure-Server>`_
-- `How to Host Curated Maps <ServerHosting/How-to-Host-Curated-Maps>`_
-- `How to Host Over Internet <ServerHosting/How-to-Host-Over-Internet>`_
-- `Port Forwarding <PortForwarding.md>`_
-- `Rocket <Rocket.md>`_
-- `Login Tokens <GameServerLoginTokens.md>`_
-- `Update Notifications <ServerUpdateNotifications.md>`_
-- `Rules and Guidelines <ServerHostingRules.md>`_
+- :ref:`How to Install Server using SteamCMD <ServerHosting/How-to-Install-Server-using-SteamCMD>`
+- :ref:`How to Install Server without SteamCMD <ServerHosting/How-to-Install-Server-without-SteamCMD>`
+- :ref:`How to Configure Server <ServerHosting/How-to-Configure-Server>`
+- :ref:`How to Host Curated Maps <ServerHosting/How-to-Host-Curated-Maps>`
+- :ref:`How to Host Over Internet <ServerHosting/How-to-Host-Over-Internet>`
+- `Port Forwarding <PortForwarding.rst>`_
+- `Rocket <Rocket.rst>`_
+- `Login Tokens <GameServerLoginTokens.rst>`_
+- `Update Notifications <ServerUpdateNotifications.rst>`_
+- `Rules and Guidelines <ServerHostingRules.rst>`_
 
 **Windows:**
 
