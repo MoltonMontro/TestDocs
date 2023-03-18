@@ -5,11 +5,11 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Multiplatform:**
 
-- :ref:`How to Install Server using SteamCMD <ServerHosting:How-to-Install-Server-using-SteamCMD>`
-- :ref:`How to Install Server without SteamCMD <ServerHosting:How-to-Install-Server-without-SteamCMD>`
-- :ref:`How to Configure Server <ServerHosting:How-to-Configure-Server>`
-- :ref:`How to Host Curated Maps <ServerHosting:How-to-Host-Curated-Maps>`
-- :ref:`How to Host Over Internet <ServerHosting:How-to-Host-Over-Internet>`
+- :ref:`How to Install Server using SteamCMD <ServerHosting:How to Install Server using SteamCMD>`
+- :ref:`How to Install Server without SteamCMD <ServerHosting:How to Install Server without SteamCMD>`
+- :ref:`How to Configure Server <ServerHosting:How to Configure Server>`
+- :ref:`How to Host Curated Maps <ServerHosting:How to Host Curated Maps>`
+- :ref:`How to Host Over Internet <ServerHosting:How to Host Over Internet>`
 - `Port Forwarding <PortForwarding.rst>`_
 - `Rocket <Rocket.rst>`_
 - `Login Tokens <GameServerLoginTokens.rst>`_
@@ -18,8 +18,8 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Windows:**
 
-- `How to Install SteamCMD <ServerHosting/How-to-Install-SteamCMD-on-Windows>`_
-- `How to Launch Server <ServerHosting/How-to-Launch-Server-on-Windows>`_
+- :ref:`How to Install SteamCMD <ServerHosting:How to Install SteamCMD on Windows>`
+- :ref:`How to Launch Server <ServerHosting:How to Launch Server on Windows>`
 - `Video Tutorial <https://www.youtube.com/watch?v=8axVrnSLlx4>`_
 
 **Linux:**
@@ -30,7 +30,7 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 How to Install SteamCMD on Windows
 ----------------------------------
 
-1. [Download From Here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
+1. `Download From Here <https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip>`_
 2. Extract the contents of the zip somewhere you can find it again.
 3. Run ``steamcmd.exe``
 
