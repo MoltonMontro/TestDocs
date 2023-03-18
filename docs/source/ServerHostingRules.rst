@@ -3,10 +3,10 @@ Server Hosting Rules
 
 Servers that violate these rules may be temporarily or permanently banned. To report a server for rule violations, or appeal a moderation decision applied to your server, you may file a ticket with SDG Support:
 
-* [Report a server for breaking rules](https://support.smartlydressedgames.com/hc/en-us/requests/new?ticket_form_id=12189991924500)
-* [Appeal a server report](https://support.smartlydressedgames.com/hc/en-us/requests/new?ticket_form_id=12189992633364)
+* `Report a server for breaking rules <https://support.smartlydressedgames.com/hc/en-us/requests/new?ticket_form_id=12189991924500>`_
+* `Appeal a server report <https://support.smartlydressedgames.com/hc/en-us/requests/new?ticket_form_id=12189992633364>`_
 
-[View Moderation List](https://smartlydressedgames.com/UnturnedHostBans/index.html)
+`View Moderation List <https://smartlydressedgames.com/UnturnedHostBans/index.html>`_
 
 Recent changes
 --------------
@@ -27,7 +27,8 @@ Examples
 
 This section will provide *examples* of allowed/banned monetization options. It is not an exhaustive list of every possible monetization strategy.
 
-### Examples of allowed monetization:
+Examples of allowed monetization:
+`````````````````````````````````
 
 - Accepting donations.
 - Selling permanent or monthly subscription access to play on the server(s).
@@ -36,7 +37,8 @@ This section will provide *examples* of allowed/banned monetization options. It 
 - Selling **custom** cosmetics like custom skins, name tags, chat colors, etc. available permanently or for the duration of the monthly subscription.
 - Selling services or commissions, for example a modder taking commissions for new content that gets added to the server for all players.
 
-### Examples of banned monetization:
+Examples of banned monetization:
+````````````````````````````````
 
 - Selling individual in-game items like weapons, ammunition, supplies, bases, etc. that can be permanently lost, stolen, or destroyed.
 - Selling individual in-game vehicles that can be permanently lost, stolen, or destroyed.
@@ -50,31 +52,35 @@ Monetization Filter
 
 Players can filter the in-game server list by this field. It is not required to configure this field, but ideally it should be set to whichever value accurately describes your server's monetization practices. When configured, this field must be configured truthfully.
 
-### `Unspecified`
+``Unspecified``
+```````````````
 
-The "Monetization" field in each server's Config.json file defaults to `Unspecified`. If you are unsure what to configure your server's monetization type as, then you can leave it unspecified.
+The "Monetization" field in each server's Config.json file defaults to ``Unspecified``. If you are unsure what to configure your server's monetization type as, then you can leave it unspecified.
 
-### `None`
+``None``
+````````
 
-Servers that are entirely unmonetized, or only offer a donation option, can use the `None` value.
+Servers that are entirely unmonetized, or only offer a donation option, can use the ``None`` value.
 
-### `NonGameplay`
+``NonGameplay``
+```````````````
 
-Servers that only offer microtransactions that do not provide a gameplay advantage can use the `NonGameplay` value. For example, selling custom weapon skins and chat colors would not be a gameplay advantage.
+Servers that only offer microtransactions that do not provide a gameplay advantage can use the ``NonGameplay`` value. For example, selling custom weapon skins and chat colors would not be a gameplay advantage.
 
-### `Monetized`
+``Monetized``
+`````````````
 
-Servers that offer *any* "pay-to-win" microtransactions (i.e., those that provide a gameplay advantage)—such as selling "kits" containing items or vehicles—should use the `Monetized` option.
+Servers that offer *any* "pay-to-win" microtransactions (i.e., those that provide a gameplay advantage)—such as selling "kits" containing items or vehicles—should use the ``Monetized`` option.
 
 Deceptive Pricing
 -----------------
 
-Fictitious and deceptive pricing is not allowed. For example: lying that a discount is nearly expired, or pretending the price is discounted when it has never been at the listed full price. We would strongly advise following [Steam's discounting rules](https://partner.steamgames.com/doc/marketing/discounts) to help avoid breaking any real-world laws.
+Fictitious and deceptive pricing is not allowed. For example: lying that a discount is nearly expired, or pretending the price is discounted when it has never been at the listed full price. We would strongly advise following `Steam's discounting rules <https://partner.steamgames.com/doc/marketing/discounts>`_ to help avoid breaking any real-world laws.
 
 Online Conduct
 --------------
 
-Repeated offenders of [Steam's rules and guidelines](https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810) will be banned.
+Repeated offenders of `Steam's rules and guidelines <https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810>`_ will be banned.
 
 Workshop File Copyright Infringement
 ------------------------------------
