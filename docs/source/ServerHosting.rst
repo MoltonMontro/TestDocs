@@ -5,11 +5,11 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Multiplatform:**
 
-- :ref:`How to Install Server using SteamCMD <ServerHosting/How-to-Install-Server-using-SteamCMD>`
-- :ref:`How to Install Server without SteamCMD <ServerHosting/How-to-Install-Server-without-SteamCMD>`
-- :ref:`How to Configure Server <ServerHosting/How-to-Configure-Server>`
-- :ref:`How to Host Curated Maps <ServerHosting/How-to-Host-Curated-Maps>`
-- :ref:`How to Host Over Internet <ServerHosting/How-to-Host-Over-Internet>`
+- :ref:`How to Install Server using SteamCMD <ServerHosting:How-to-Install-Server-using-SteamCMD>`
+- :ref:`How to Install Server without SteamCMD <ServerHosting:How-to-Install-Server-without-SteamCMD>`
+- :ref:`How to Configure Server <ServerHosting:How-to-Configure-Server>`
+- :ref:`How to Host Curated Maps <ServerHosting:How-to-Host-Curated-Maps>`
+- :ref:`How to Host Over Internet <ServerHosting:How-to-Host-Over-Internet>`
 - `Port Forwarding <PortForwarding.rst>`_
 - `Rocket <Rocket.rst>`_
 - `Login Tokens <GameServerLoginTokens.rst>`_
