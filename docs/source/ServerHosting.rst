@@ -41,7 +41,7 @@ How to Install SteamCMD on Linux
 
 Installation on Linux varies by distribution and your admin preferences, so refer to `Valve's Linux Documentation <https://developer.valvesoftware.com/wiki/SteamCMD#Linux>`_. Once downloaded, run the ``steamcmd.sh`` script.
 
-Continue to: :ref:`How to Install Server using SteamCMD <ServerHosting:How-to-Install-Server-using-SteamCMD>`
+Continue to: :ref:`How to Install Server using SteamCMD <ServerHosting:How to Install Server using SteamCMD>`
 
 How to Install Server using SteamCMD
 ------------------------------------
