@@ -54,7 +54,7 @@ How to Install Server using SteamCMD
 
 2. Download the server:
 
-.. code-block:: shell
+.. code-block:: bash
 	
 	app_update 1110390
 
