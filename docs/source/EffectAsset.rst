@@ -1,9 +1,9 @@
 Effect Assets
 =============
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Effect`)
+**Type** *enum* (``Effect``)
 
 **ID** *uint16*: Must be a unique identifier.
 
@@ -50,6 +50,6 @@ Splatters
 
 **Splatter_Liquid** *flag*: Splatters are visible regardless of effect graphics settings being disabled, and slightly changes the direction of each splatter.
 
-**Splatter_Temperature** *enum* (`Acid`, `Burning`, `Warm`): Temperature status effect caused when standing in the effect.
+**Splatter_Temperature** *enum* (``Acid``, ``Burning``, ``Warm``): Temperature status effect caused when standing in the effect.
 
 **Splatter_Preload** *byte*: Total number of the splatter effects to pre-instantiate in the effect pool to reduce hitching when first used.
