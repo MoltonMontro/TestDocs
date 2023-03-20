@@ -32,7 +32,7 @@ Prior to using any of these tools they must be imported into a Unity project
 Master Bundles
 --------------
 
-Most official files including curated maps have been transitioned to master bundles (``*.masterbundle``), and they will be used for the forseeable future.
+Most official files including curated maps have been transitioned to master bundles (\*.masterbundle), and they will be used for the forseeable future.
 
 File Setup for Master Bundles
 `````````````````````````````
