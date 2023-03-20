@@ -183,32 +183,32 @@ Game rules, listing display, and many other options are available in the ``Confi
 Steam Workshop add-ons (e.g., maps, items, vehicles) are setup in the ``WorkshopDownloadConfig.json`` file.
 To include a Workshop file on your server:
 
-1. Browse to its web page, for example: [Hawaii](https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636)
+1. Browse to its web page, for example: `Hawaii <https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636>`_
 2. Copy the file ID from the end of the URL.
 
 .. code-block:: c#
 	
-		URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636
-		ID: 1753134636
+	URL: https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636
+	ID: 1753134636
 
 3. Insert the file ID into the File_IDs list:
 
 .. code-block:: c#
 	
-		"File_IDs":
-		[
-			1753134636
-		],
+	"File_IDs":
+	[
+		1753134636
+	],
 
 Multiple file IDs should be separated by commas:
 
 .. code-block:: c#
 	
-		"File_IDs":
-		[
-			1753134636,
-			1702240229
-		],
+	"File_IDs":
+	[
+		1753134636,
+		1702240229
+	],
 
 4. During startup the files will be updated, and any dependencies detected. Players will have the files downloaded while connecting to the server.
 
@@ -242,10 +242,10 @@ Alphabetically sorted list of curated map file IDs:
 How to Host Over Internet
 -------------------------
 
-Hosting a publicly-accessible internet server requires an extra step compared to a LAN server. When on a home network [Port Forwarding](PortForwarding.md) is required in order to direct traffic to the host computer.
+Hosting a publicly-accessible internet server requires an extra step compared to a LAN server. When on a home network `Port Forwarding <PortForwarding.rst>`_ is required in order to direct traffic to the host computer.
 
 One way to think of it is that when there are multiple devices (e.g. computers and phones) connected to the LAN, the outside internet does not know which device is the Unturned server. In this case port forwarding specifies which LAN device is the host.
 
-For port ranges and other details: [Port Forwarding](PortForwarding.md)
+For port ranges and other details: `Port Forwarding <PortForwarding.rst>`_
 
-Listing your server on the in-game internet server list requires a [Login Token](GameServerLoginTokens.md) to be set.
+Listing your server on the in-game internet server list requires a `Login Token <GameServerLoginTokens.rst>`_ to be set.
