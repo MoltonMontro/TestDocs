@@ -39,15 +39,22 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    AssetsV1
    AssetsV2
    AssetValidation
+   Bitmask
+   CharacterMeshReplacement
    CommandLine
    CommandIO
+   CraftingBlacklistAsset
    CuratedMaps
+   Currency
    DedicatedWorkshopUpdateMonitor
    EditorAssetRedirectors
+   EffectAsset
    FavoriteSearches
+   Foliage
    GameServerLoginTokens
    GettingStarted
    Glazier
+   GUID
    Landscape
    LevelBatching
    LevelConfig
