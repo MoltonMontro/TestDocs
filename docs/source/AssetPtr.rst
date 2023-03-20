@@ -12,7 +12,6 @@ Note that the GUID here is not wrapped in quotes because Unturned \*.dat files a
 .. code-block:: cs
 	
 	"MyAssetPtr" ################################
-	"MyAssetPtr" ################################
 
 
 In \*.asset files
