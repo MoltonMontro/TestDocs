@@ -1,7 +1,7 @@
 Asset Bundles
 =============
 
-The game loads textures, audio, meshes, prefabs, etc. from **Unity Asset Bundles** at runtime. How these are setup and used has evolved over the years from individual \*.unity3d bundles to \*.content bundles to \*.masterbundle files.
+The game loads textures, audio, meshes, prefabs, etc. from **Unity Asset Bundles** at runtime. How these are setup and used has evolved over the years from individual .unity3d bundles to .content bundles to .masterbundle files.
 
 :ref:`Master Bundles <AssetBundles:Master Bundles (\*.masterbundle)>` should be used for essentially all new projects.
 
@@ -100,4 +100,4 @@ This format was historically used by terrain, material palettes, and radio songs
 Reusing Content Bundles
 ```````````````````````
 
-Although it is preferable to properly migrate older assets into master bundles, preexisting content bundles can be easily reused as a master bundle. Rename the \*.content file to be \*.masterbundle file instead. Then, add a corresponding MasterBundle.dat file as described in the file setup for master bundles.
+Although it is preferable to properly migrate older assets into master bundles, preexisting content bundles can be easily reused as a master bundle. Rename the &#42;.content file to be &#42;.masterbundle file instead. Then, add a corresponding MasterBundle.dat file as described in the file setup for master bundles.
