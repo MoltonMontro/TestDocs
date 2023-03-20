@@ -23,13 +23,12 @@ Master Bundles (\*.masterbundle)
 
 Most official files including curated maps have been transitioned to master bundles, and they will be used for the forseeable future.
 
-File Setup
-``````````
+File Setup for Master Bundles
+`````````````````````````````
 
 Master bundles can be loaded from any directory the game loads \*.dat files from. Unless an override is specified, the nearest master bundle in the file hierarchy is used. While loading each directory is checked for a MasterBundle.dat file signalling the presence of a master bundle. For example, refer to the core.masterbundle in the Bundles directory.
 
 MasterBundle.dat can set the following keys:
-
 
 .. code-block:: cs
 	
@@ -57,8 +56,8 @@ Individual asset \*.dats can set the following keys:
 	// Used by notes to share a common object prefab.
 	Bundle_Override_Path /Objects/Medium/Furniture/Note
 
-Tool Usage
-``````````
+Tool Usage for Master Bundles
+`````````````````````````````
 
 1. Follow *Tool Setup* instructions.
 2. Open the tool from the Window > Unturned > Master Bundle Tool menu.
@@ -69,8 +68,8 @@ Tool Usage
 7. Click Export.
 8. (optional) When redistributing the asset bundle the "multiplatform" toggle should be enabled. This ensures the appropriate shaders for each platform are included, and exports a ".hash" file so the server can validate client asset bundle integrity.
 
-Motivations
-```````````
+Motivations for Master Bundles
+``````````````````````````````
 
 When upgrading to Unity 2017.4 LTS it became apparent that all asset bundles would have to be re-exported from Unity due to shader compatibility changes. This would be an incredible amount of files, so it was time to re-approach the \*.content issue in a way that could quickly convert all existing content. This was handled by keeping the file hierarchy 1:1 and guessing the file extension for the by-name loading.
 
@@ -79,8 +78,8 @@ Individual Asset Bundles (\*.unity3d)
 
 Most official files have transitioned to the master bundle system, but some uses still exist like the per-map road textures.
 
-Tool Usage
-``````````
+Tool Usage for Asset Bundles
+````````````````````````````
 
 1. Follow *Tool Setup* instructions.
 2. Open the tool from the Window > Unturned > Bundle Tool menu.
@@ -88,8 +87,8 @@ Tool Usage
 4. Click Grab to preview which assets will be exported.
 5. Click Bundle to choose a destination for the asset bundle file.
 
-Motivations
-```````````
+Motivations for Asset Bundles
+`````````````````````````````
 
 When beginning development of 3.0, it was key to support runtime loading of custom modded content. At the time files in asset bundles were loaded by name without extension, so each game type looked for specific names like "Item", "Object", "Animal", etc. The .unity3d extension was chosen for web browser compatibility. Obviously this system did not age well.
 
