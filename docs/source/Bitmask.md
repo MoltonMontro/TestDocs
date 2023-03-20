@@ -1,7 +1,7 @@
 Bitmask
 =======
 
-[Recommended Wikipedia Article](https://en.wikipedia.org/wiki/Mask_(computing))
+`Recommended Wikipedia Article <https://en.wikipedia.org/wiki/Mask_(computing)>`_
 
 Weather Example
 ---------------
