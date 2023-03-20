@@ -6,18 +6,7 @@ The game loads textures, audio, meshes, prefabs, etc. from **Unity Asset Bundles
 \*.content bundles to
 \*.masterbundle files. 
 
-:ref:`Master Bundles <AssetBundles:Master Bundles (*.masterbundle)>` should be used for essentially all new projects.
-
-:ref:`Master Bundles <AssetBundles:Master Bundles (*.masterbundle)>`
-:ref:`Master Bundles <AssetBundles:Master Bundles *.masterbundle>`
-:ref:`Master Bundles <AssetBundles:Master Bundles .masterbundle>`
-:ref:`Master Bundles <AssetBundles:Master Bundles *masterbundle>`
-:ref:`Master Bundles <AssetBundles:Master Bundles masterbundle>`
-:ref:`Master Bundles <AssetBundles:Master Bundles>`
-
-:ref:`Master Bundles <AssetBundles:Master Bundles (\*.masterbundle)>`
-:ref:`Master Bundles <AssetBundles:Master Bundles \*.masterbundle>`
-:ref:`Master Bundles <AssetBundles:Master Bundles \*masterbundle>`
+:ref:`Master Bundles <AssetBundles:Master Bundles>` should be used for essentially all new projects.
 
 Tool Setup
 ----------
