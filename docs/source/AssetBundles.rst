@@ -29,10 +29,10 @@ Prior to using any of these tools they must be imported into a Unity project
 3. Navigate to the Bundles/Sources directory.
 4. Import the Project.unitypackage.
 
-Master Bundles (``*.masterbundle``)
------------------------------------
+Master Bundles
+--------------
 
-Most official files including curated maps have been transitioned to master bundles, and they will be used for the forseeable future.
+Most official files including curated maps have been transitioned to master bundles (``*.masterbundle``), and they will be used for the forseeable future.
 
 File Setup for Master Bundles
 `````````````````````````````
@@ -84,10 +84,10 @@ Motivations for Master Bundles
 
 When upgrading to Unity 2017.4 LTS it became apparent that all asset bundles would have to be re-exported from Unity due to shader compatibility changes. This would be an incredible amount of files, so it was time to re-approach the \*.content issue in a way that could quickly convert all existing content. This was handled by keeping the file hierarchy 1:1 and guessing the file extension for the by-name loading.
 
-Individual Asset Bundles (\*.unity3d)
--------------------------------------
+Individual Asset Bundles
+------------------------
 
-Most official files have transitioned to the master bundle system, but some uses still exist like the per-map road textures.
+Most official files have transitioned to the master bundle system, but some use individual asset bundles (\*.unity3d). For example, the per-map road textures.
 
 Tool Usage for Asset Bundles
 ````````````````````````````
