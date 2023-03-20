@@ -94,12 +94,10 @@ Content Bundles (\*.content)
 ----------------------------
 
 .. deprecated:: 3.22.4.0
-	
-	Test
 
 This format was historically used by terrain, material palettes, and radio songs. After the April 23, 2021 patch (version 3.21.15.0) these assets can all use master bundles instead. As of the February 25, 2022 patch (version 3.22.4.0) any remaining support for content bundles has been removed. New references should use a master bundle name and relative path for the "Name" and "Path" properties.
 
 Reusing Content Bundles
 ```````````````````````
 
-Although it is preferable to properly migrate older assets into master bundles, preexisting content bundles can be easily reused as a master bundle. Rename the *.content file to be *.masterbundle file instead. Then, add a corresponding MasterBundle.dat file as described in the file setup for master bundles.
+Although it is preferable to properly migrate older assets into master bundles, preexisting content bundles can be easily reused as a master bundle. Rename the *\.content file to be *\.masterbundle file instead. Then, add a corresponding MasterBundle.dat file as described in the file setup for master bundles.
