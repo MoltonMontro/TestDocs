@@ -6,7 +6,7 @@ The game loads textures, audio, meshes, prefabs, etc. from **Unity Asset Bundles
 \*.content bundles to
 \*.masterbundle files. 
 
-:ref:`Master Bundles <AssetBundles:Master Bundles *.masterbundle>` should be used for essentially all new projects.
+:ref:`Master Bundles <AssetBundles:Master Bundles (*.masterbundle)>` should be used for essentially all new projects.
 
 :ref:`Master Bundles <AssetBundles:Master Bundles (*.masterbundle)>`
 :ref:`Master Bundles <AssetBundles:Master Bundles *.masterbundle>`
@@ -29,7 +29,7 @@ Prior to using any of these tools they must be imported into a Unity project
 3. Navigate to the Bundles/Sources directory.
 4. Import the Project.unitypackage.
 
-Master Bundles (\*.masterbundle)
+Master Bundles (``*.masterbundle``)
 --------------------------------
 
 Most official files including curated maps have been transitioned to master bundles, and they will be used for the forseeable future.
