@@ -30,7 +30,7 @@ Prior to using any of these tools they must be imported into a Unity project
 4. Import the Project.unitypackage.
 
 Master Bundles (``*.masterbundle``)
---------------------------------
+-----------------------------------
 
 Most official files including curated maps have been transitioned to master bundles, and they will be used for the forseeable future.
 
