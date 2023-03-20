@@ -30,6 +30,15 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    :maxdepth: 1
    :caption: Documentation
    
+   AirdropAsset
+   AnimalAsset
+   Animation
+   AssetBundleCustomData
+   AssetBundles
+   AssetPtr
+   AssetsV1
+   AssetsV2
+   AssetValidation
    CommandLine
    CommandIO
    CuratedMaps
