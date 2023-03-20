@@ -1,9 +1,9 @@
 Animal Assets
 =============
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Animal`)
+**Type** *enum* (``Animal``)
 
 **ID** *uint16*: Must be a unique identifier.
 
@@ -16,7 +16,7 @@ Animal Properties
 
 **Damage** *byte*: Damage dealt to the player per attack.
 
-**Behaviour** *enum* (`Defense`, `Offense`, `Ignore`): AI behavior type. Defense AI will run away when alerted, Offense AI will attack when alerted, and Ignore AI will run away when attacked.
+**Behaviour** *enum* (``Defense``, ``Offense``, ``Ignore``): AI behavior type. Defense AI will run away when alerted, Offense AI will attack when alerted, and Ignore AI will run away when attacked.
 
 **Speed_Run** *float*: Running speed in m/s.
 
