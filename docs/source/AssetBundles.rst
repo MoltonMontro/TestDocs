@@ -26,7 +26,7 @@ Most official files including curated maps have been transitioned to master bund
 File Setup
 ``````````
 
-Master bundles can be loaded from any directory the game loads *.dat files from. Unless an override is specified, the nearest master bundle in the file hierarchy is used. While loading each directory is checked for a MasterBundle.dat file signalling the presence of a master bundle. For example, refer to the core.masterbundle in the Bundles directory.
+Master bundles can be loaded from any directory the game loads \*.dat files from. Unless an override is specified, the nearest master bundle in the file hierarchy is used. While loading each directory is checked for a MasterBundle.dat file signalling the presence of a master bundle. For example, refer to the core.masterbundle in the Bundles directory.
 
 MasterBundle.dat can set the following keys:
 
