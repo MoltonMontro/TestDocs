@@ -100,4 +100,4 @@ This format was historically used by terrain, material palettes, and radio songs
 Reusing Content Bundles
 ```````````````````````
 
-Although it is preferable to properly migrate older assets into master bundles, preexisting content bundles can be easily reused as a master bundle. Rename the *\.content file to be *\.masterbundle file instead. Then, add a corresponding MasterBundle.dat file as described in the file setup for master bundles.
+Although it is preferable to properly migrate older assets into master bundles, preexisting content bundles can be easily reused as a master bundle. Rename the \*.content file to be \*.masterbundle file instead. Then, add a corresponding MasterBundle.dat file as described in the file setup for master bundles.
