@@ -1,7 +1,7 @@
 Asset Bundles
 =============
 
-The game loads textures, audio, meshes, prefabs, etc. from **Unity Asset Bundles** at runtime. How these are setup and used has evolved over the years from individual \*.unity3d bundles to .content bundles to *\.masterbundle files.
+The game loads textures, audio, meshes, prefabs, etc. from **Unity Asset Bundles** at runtime. How these are setup and used has evolved over the years from individual \*.unity3d bundles to .content bundles to *\.masterbundle files. *
 
 :ref:`Master Bundles <AssetBundles:Master Bundles (\*.masterbundle)>` should be used for essentially all new projects.
 
