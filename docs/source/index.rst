@@ -30,8 +30,6 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    :maxdepth: 1
    :caption: Documentation
    
-   Troubleshooting
-   GettingStarted
    CommandLine
    CommandIO
    CuratedMaps
@@ -39,6 +37,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    EditorAssetRedirectors
    FavoriteSearches
    GameServerLoginTokens
+   GettingStarted
    Glazier
    Landscape
    LevelBatching
@@ -51,3 +50,4 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    ServerHosting
    ServerHostingRules
    ServerUpdateNotifications
+   Troubleshooting
