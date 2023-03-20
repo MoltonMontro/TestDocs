@@ -94,6 +94,8 @@ Content Bundles (\*.content)
 ----------------------------
 
 .. deprecated:: 3.22.4.0
+	
+	Test
 
 This format was historically used by terrain, material palettes, and radio songs. After the April 23, 2021 patch (version 3.21.15.0) these assets can all use master bundles instead. As of the February 25, 2022 patch (version 3.22.4.0) any remaining support for content bundles has been removed. New references should use a master bundle name and relative path for the "Name" and "Path" properties.
 
