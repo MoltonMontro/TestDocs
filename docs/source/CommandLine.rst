@@ -46,7 +46,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-LogLevelBatchingTextureAtlasExclusions**: Please refer to [Level Batching](LevelBatching.md) for more details.
 
-**-NetTransport=** *enum* (``SteamNetworking``, ``SteamNetworkingSockets``): SteamNetworkingSockets was used to enable the [ISteamNetworkingSockets](https://partner.steamgames.com/doc/api/ISteamNetworkingSockets) networking API, but this has since become default. SteamNetworking can be used to revert to the older, deprecated [ISteamNetworking](https://partner.steamgames.com/doc/api/ISteamNetworking) networking API.
+**-NetTransport=** *enum* (``SteamNetworking``, ``SteamNetworkingSockets``): SteamNetworkingSockets was used to enable the `ISteamNetworkingSockets <https://partner.steamgames.com/doc/api/ISteamNetworkingSockets>`_ networking API, but this has since become default. SteamNetworking can be used to revert to the older, deprecated `ISteamNetworking <https://partner.steamgames.com/doc/api/ISteamNetworking>`_ networking API.
 
 **-NoDefaultLog**: Disables log file creation unless a plugin calls setLogFilePath.
 
@@ -58,7 +58,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-OfflineOnly**: Disables requests to the internet. For LAN servers, it skips the Steam backend connection and uses locally-cached Workshop items.
 
-**-PreviewLevelBatchingTextureAtlas**: Please refer to [Level Batching](LevelBatching.md) for more details.
+**-PreviewLevelBatchingTextureAtlas**: Please refer to `Level Batching <LevelBatching.rst>`_ for more details.
 
 **-RazerChroma**: Enable Razer Chroma integration on compatible devices.
 
@@ -68,11 +68,11 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-ui_scale**: UI scale override. A common usage is to set UI scale back to its default scaling, with ``-ui_scale 1``.
 
-**-UseLevelBatching** *bool*: Overrides whether level batching can be enabled. Per-level support for level batching is still required. For example ``-UseLevelBatching=false`` disables it. Please refer to [Level Batching](LevelBatching.md) for more details.
+**-UseLevelBatching** *bool*: Overrides whether level batching can be enabled. Per-level support for level batching is still required. For example ``-UseLevelBatching=false`` disables it. Please refer to `Level Batching <LevelBatching.rst>`_ for more details.
 
-**-ValidateAssets**: Perform [additional health checks](AssetValidation.md) on assets during start-up.
+**-ValidateAssets**: Perform `additional health checks <AssetValidation.rst>`_ on assets during start-up.
 
-**-ValidateLevelBatchingUVs**: Please refer to [Level Batching](LevelBatching.md) for more details.
+**-ValidateLevelBatchingUVs**: Please refer to `Level Batching <LevelBatching.rst>`_ for more details.
 
 **-w** *int*: Alias of ``-width``.
 
@@ -81,7 +81,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 Unity options
 -------------
 
-Unity's built-in command-line arguments take priority over *Unturned*'s equivalents. Some of the more relevant Unity arguments are mentioned below, but the rest can be found in the [Unity User Manual](https://docs.unity3d.com/2019.4/Documentation/Manual/PlayerCommandLineArguments.html).
+Unity's built-in command-line arguments take priority over *Unturned*'s equivalents. Some of the more relevant Unity arguments are mentioned below, but the rest can be found in the `Unity User Manual <https://docs.unity3d.com/2019.4/Documentation/Manual/PlayerCommandLineArguments.html>`_.
 
 **-batchmode**: Run in batch mode.
 
