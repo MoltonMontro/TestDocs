@@ -4,6 +4,7 @@ Foliage
 This is an `Asset v2 <AssetsV2.rst>`_ class.
 
 There are sub-types of foliage asset for different uses, most notably instanced meshes (grass, pebbles) and resources (trees). Unlike the older system, tree baking cannot be configured directly within the level editor yet, but there are two benefits to separating baking settings from the trees themselves:
+
 1. Different biomes or levels can use the same trees with different parameters. For example a dense forest material with less dense forest surrounding it, or using tree assets from a different map with custom configuration.
 2. Eventually the resource system should be converted into a regular objects (this will be automatic) but most objects do not need foliage parameters.
 
