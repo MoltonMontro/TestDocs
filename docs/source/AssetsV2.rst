@@ -1,7 +1,7 @@
 Assets v2
 =========
 
-For the vast majority of older features like items, vehicles, effects, etc refer to [Assets v1](AssetsV1.md).
+For the vast majority of older features like items, vehicles, effects, etc refer to `Assets v1 <AssetsV1.rst>`_.
 
 The main advantages of the newer assets are:
 
@@ -14,8 +14,10 @@ The main advantages of the newer assets are:
 File Format
 -----------
 
-Any `.asset` file is treated as v2. Lines starting with `//` are comments. Keys and values are wrapped in quotes. Curly braces `{ }` wrap objects and square brackets `[ ]` wrap arrays.
+Any ``.asset`` file is treated as v2. Lines starting with ``//`` are comments. Keys and values are wrapped in quotes. Curly braces ``{ }`` wrap objects and square brackets ``[ ]`` wrap arrays.
 
+.. code-block:: cs
+	
 	"Key" "Value"
 	"Object"
 	{
@@ -32,12 +34,14 @@ Any `.asset` file is treated as v2. Lines starting with `//` are comments. Keys 
 Header
 ------
 
-Each asset has a `Metadata` section for preparing to load.
+Each asset has a ``Metadata`` section for preparing to load.
 
-`GUID` *string*: Refer to [GUID](GUID.md) documentation.
+``GUID`` *string*: Refer to `GUID <GUID.rst>`_ documentation.
 
-`Type` *string*: Fully qualified name of any class in any module.
+``Type`` *string*: Fully qualified name of any class in any module.
 
+.. code-block:: cs
+	
 	"Metadata"
 	{
 		"GUID" "7e4b847061b64272b42ea8869fd053c7"
@@ -47,8 +51,10 @@ Each asset has a `Metadata` section for preparing to load.
 Body
 ----
 
-The `Asset` body contains any class properties. Individual asset type documentation elaborates on these.
+The ``Asset`` body contains any class properties. Individual asset type documentation elaborates on these.
 
+.. code-block:: cs
+	
 	"Asset"
 	{
 		"Key" "Value"
