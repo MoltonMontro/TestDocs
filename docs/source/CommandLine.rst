@@ -14,7 +14,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **+connect**: Connect to a server, in the format of ``+connect <ip address>:<port>``.
 
-**-DisableCullingVolumes**: Disable object culling distance overrides. Please refer to [Manual Object Culling](ManualObjectCulling.md) for more details.
+**-DisableCullingVolumes**: Disable object culling distance overrides. Please refer to `Manual Object Culling <ManualObjectCulling.rst>`_ for more details.
 
 **-DisableLightLODs**: Disable fadeout of dynamic lights. Could be useful for high-quality screenshots.
 
@@ -44,7 +44,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **-LogAssemblyResolve**: Log when the resolution of an assembly fails. Useful when working with non-Rocket plugins.
 
-**-LogLevelBatchingTextureAtlasExclusions**: Please refer to [Level Batching](LevelBatching.md) for more details.
+**-LogLevelBatchingTextureAtlasExclusions**: Please refer to `Level Batching <LevelBatching.rst>`_ for more details.
 
 **-NetTransport=** *enum* (``SteamNetworking``, ``SteamNetworkingSockets``): SteamNetworkingSockets was used to enable the `ISteamNetworkingSockets <https://partner.steamgames.com/doc/api/ISteamNetworkingSockets>`_ networking API, but this has since become default. SteamNetworking can be used to revert to the older, deprecated `ISteamNetworking <https://partner.steamgames.com/doc/api/ISteamNetworking>`_ networking API.
 
