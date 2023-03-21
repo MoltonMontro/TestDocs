@@ -3,12 +3,12 @@ Optic Assets
 
 Optics can modify a player's view.
 
-This inherits the [ItemAsset](/ItemAsset/README.md) class.
+This inherits the `ItemAsset <README.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
 **Type** *enum* (`Optic`)
 
