@@ -1,9 +1,11 @@
 Item Data (outdated)
 ====================
 
-**NOTICE:** *This documentation file has been deprecated, and is no longer receiving updates. It has been superceded in favor of the `ItemAsset directory <ItemAsset>`_, which contains individual documentation files for each item asset class.*
-
-*This deprecated documentation file will be progressively phased out as the new documentation sources are expanded.*
+.. warning::
+  
+  This documentation file has been deprecated, and is no longer receiving updates. It has been superceded in favor of the `ItemAsset directory <ItemAsset>`_, which contains individual documentation files for each item asset class.
+  
+  This deprecated documentation file will be progressively phased out as the new documentation sources are expanded.
 
 ----
 
