@@ -3,16 +3,16 @@ Mask Assets
 
 Masks can be worn by players and zombies.
 
-This inherits the [GearAsset](/ItemAsset/GearAsset.md) class.
+This inherits the `GearAsset <GearAsset.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Mask`)
+**Type** *enum* (``Mask``)
 
-**Useable** *enum* (`Clothing`)
+**Useable** *enum* (``Clothing``)
 
 **ID** *uint16*: Must be a unique identifier.
 
