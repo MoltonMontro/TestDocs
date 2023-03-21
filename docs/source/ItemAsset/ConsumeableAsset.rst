@@ -3,7 +3,7 @@ Consumeable Assets
 
 Consumable items are irreversibly consumed by the player on use, and directly affect a player's stats such as food or health.
 
-This inherits the [WeaponAsset](/ItemAsset/WeaponAsset.md) class.
+This inherits the `WeaponAsset <README.rst>`_ class.
 
 Consumeable Asset Properties
 ----------------------------
@@ -12,11 +12,11 @@ Consumeable Asset Properties
 
 **Bleeding** *flag*: Specified if the item should remove the "Bleeding" status effect. Deprecated in favor of Bleeding_Modifier.
 
-**Bleeding_Modifier** *enum* (`Cut`, `Heal`, `None`): Determines the effect the consumable has in relation to the "Bleeding" status effect.
+**Bleeding_Modifier** *enum* (``Cut``, ``Heal``, ``None``): Determines the effect the consumable has in relation to the "Bleeding" status effect.
 
 **Broken** *flag*: Specified if the item should remove the "Broken Bones" status effect. Deprecated in favor of Bones_Modifier.
 
-**Bones_Modifier** *enum* (`Break`, `Heal`, `None`): Determines the effect the consumable has in relation to the "Broken Bones" status effect.
+**Bones_Modifier** *enum* (``Break``, ``Heal``, ``None``): Determines the effect the consumable has in relation to the "Broken Bones" status effect.
 
 **Disinfectant** *byte*: Amount of immunity restored.
 
@@ -51,6 +51,6 @@ Consumeable Asset Properties
 Rewards
 -------
 
-Consumables can use quest rewards. A common usage is to create consumables with multiple (but still limited) uses, by placing a new item in the player's inventory after consuming the original. Alternatively, consuming a consumable may be required to complete a quest. Refer to [Rewards.md](/NPCAsset/Rewards.md) for additional documentation.
+Consumables can use quest rewards. A common usage is to create consumables with multiple (but still limited) uses, by placing a new item in the player's inventory after consuming the original. Alternatively, consuming a consumable may be required to complete a quest. Refer to `Rewards.rst <Rewards.rst>`_ for additional documentation.
 
-These rewards are prefixed with `Quest_`. For example, `Quest_Rewards 1`.
+These rewards are prefixed with ``Quest\_``. For example, ``Quest_Rewards 1``.
