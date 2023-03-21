@@ -58,6 +58,6 @@ Skill Rule Properties
 Music Properties
 ----------------
 
-``Loop`` [Master Bundle Pointer](MasterBundlePtr.md): looping audio clip played until loading finishes.
+``Loop`` `Master Bundle Pointer <MasterBundlePtr.rst>`_: looping audio clip played until loading finishes.
 
-``Outro`` [Master Bundle Pointer](MasterBundlePtr.md): audio clip played once loading finishes.
+``Outro`` `Master Bundle Pointer <MasterBundlePtr.rst>`_: audio clip played once loading finishes.
