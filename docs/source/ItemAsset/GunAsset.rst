@@ -55,7 +55,7 @@ Calibers
 Damage
 ``````
 
-In addition to the damage properties available from the the :ref:`WeaponAsset <WeaponAsset:Player Damage>` class, GunAssets have some exclusive properties.
+In addition to the damage properties available from the the :ref:`WeaponAsset <WeaponAsset:player damage>` class, GunAssets have some exclusive properties.
 
 **Damage_Falloff_Multiplier** *float*: Percentage of damage to apply at maximum range. For example, a value of 0.25 with a damage of 40 means 10 damage will be dealt at maximum range. Defaults to 1.
 
