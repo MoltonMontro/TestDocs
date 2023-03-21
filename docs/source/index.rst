@@ -30,13 +30,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    :maxdepth: 1
    :caption: Documentation
    
-   NPCAsset/Characters
-   NPCAsset/Conditions
-   NPCAsset/Dialogues
-   NPCAsset/Quests
    NPCAsset/README
-   NPCAsset/Rewards
-   NPCAsset/Vendors
    
    AirdropAsset
    AnimalAsset
