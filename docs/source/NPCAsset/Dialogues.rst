@@ -1,16 +1,16 @@
 Dialogue
 ========
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID </GUID.rst>`_ documentation.
 
-**Type** *enum* (`Dialogue`)
+**Type** *enum* (``Dialogue``)
 
 **ID** *uint16*: Must be a unique identifier. Values less than 2,000 are reserved for official content.
 
 Messages
 --------
 
-Properties pertaining to dialogue performed by the NPC. Dialogue can utilize conditions and rewards. Messages that meet all of their conditions will be shown, and can grant rewards when the message is shown. These are prefixed with `Message_#_`. For example, `Message_0_Condition_0_Type Flag_Bool`. Refer to [Conditions.md](/NPCAsset/Conditions.md) and [Rewards.md](/NPCAsset/Rewards.md) for additional documentation.
+Properties pertaining to dialogue performed by the NPC. Dialogue can utilize conditions and rewards. Messages that meet all of their conditions will be shown, and can grant rewards when the message is shown. These are prefixed with ``Message_#_``. For example, ``Message_0_Condition_0_Type Flag_Bool``. Refer to `Conditions.rst <Conditions.rst>`_ and `Rewards.rst <Rewards.rst>`_ for additional documentation.
 
 **Messages** *int32*: Total number of possible messages.
 
@@ -27,7 +27,7 @@ Properties pertaining to dialogue performed by the NPC. Dialogue can utilize con
 Responses
 ---------
 
-Properties pertaining to dialogue available to the player. Dialogue can utilize conditions and rewards. Responses are only visible when conditions are met, and can grant rewards when selected. These are prefixed with `Response_#_`. For example, `Response_0_Reward_0_Type Quest`. Refer to [Conditions.md](/NPCAsset/Conditions.md) and [Rewards.md](/NPCAsset/Rewards.md) for additional documentation.
+Properties pertaining to dialogue available to the player. Dialogue can utilize conditions and rewards. Responses are only visible when conditions are met, and can grant rewards when selected. These are prefixed with `Response_#_`. For example, `Response_0_Reward_0_Type Quest`. Refer to `Conditions.rst <Conditions.rst>`_ and `Rewards.rst <Rewards.rst>`_ for additional documentation.
 
 **Responses** *byte*: Total number of possible responses.
 
