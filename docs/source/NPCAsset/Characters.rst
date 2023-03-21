@@ -1,9 +1,9 @@
 NPC Character
 =============
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID </GUID.rst>`_ documentation.
 
-**Type** *enum* (`NPC`)
+**Type** *enum* (``NPC``)
 
 **ID** *uint16*: Must be a unique identifier.
 
@@ -24,7 +24,8 @@ Clothing
 
 **Glasses** *uint16* or *GUID*: ID or GUID of glasses to wear.
 
-### Holiday outfits
+Holiday outfits
+```````````````
 
 NPC characters can have event-specific outfits, which will only appear during the assigned seasonal event.
 
@@ -86,11 +87,11 @@ Pose
 
 **Tertiary** *uint16* or *GUID*: ID or GUID of a non-weapon item to carry.
 
-**Equipped** *enum* (`Primary`, `Secondary`, `Tertiary`): The item in the specified slot will be held in the character's hands, rather than carried.
+**Equipped** *enum* (``Primary``, ``Secondary``, ``Tertiary``): The item in the specified slot will be held in the character's hands, rather than carried.
 
 **Dialogue** *uint16* or *GUID*: ID or GUID of the dialogue asset to open when interacted with.
 
-**Pose** *enum* (`Asleep`, `Crouch`, `Passive`, `Prone`, `Rest`, `Sit`, `Stand`, `Surrender`, `Under_Arrest`): Idle animation.
+**Pose** *enum* (``Asleep``, ``Crouch``, ``Passive``, ``Prone``, ``Rest``, ``Sit``, ``Stand``, ``Surrender``, ``Under_Arrest``): Idle animation.
 
 Conditions
 ----------
