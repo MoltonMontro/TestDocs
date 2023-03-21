@@ -5,7 +5,6 @@
    which is hidden from the page but appears in the sidebar.
 
 .. toctree::
-   :hidden:
    :maxdepth: 1
    
    Introduction
