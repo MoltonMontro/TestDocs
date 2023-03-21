@@ -40,3 +40,14 @@
    OpticAsset
    PantsAsset
    PlaceableAsset
+   SentryAsset
+   ShirtAsset
+   SightAsset
+   StructureAsset
+   SupplyAsset
+   TacticalAsset
+   ThrowableAsset
+   TrapAsset
+   VestAsset
+   WaterAsset
+   WeaponAsset
