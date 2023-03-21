@@ -7,13 +7,15 @@ Overview
 --------
 
 Built-in Layers
+
 - 0 Default
 - 1 TransparentFX
 - 2 Ignore Raycast
 - 4 Water: ocean and water tiles.
-- 5 UI: menus with [uGUI glazier](Glazier.md) as well as plugin custom menus.
+- 5 UI: menus with `uGUI glazier <Glazier.rst>`_ as well as plugin custom menus.
 
 User Layers
+
 - 8 Logic: clickable overlays like the position, rotation and scale handles. Editor debug visuals that can be seen through walls are on this layer.
 - 9 Player: character capsule (not body hitboxes). Exists for all players server-side, but only the local player client-side.
 - 10 Enemy: player body hitboxes.
@@ -45,6 +47,7 @@ Layer Collision Matrix
 Note that these comments do **NOT** apply to collision queries like raycasts, spherecasts, etc.
 
 No physics collision:
+
 - Default
 - TransparentFX
 - Ignore Raycast
@@ -62,6 +65,7 @@ No physics collision:
 - Ground2
 
 Has physics collision:
+
 - Player: character controller layer is used by Unity as the underlying query mask.
 - Debris
 - Item
