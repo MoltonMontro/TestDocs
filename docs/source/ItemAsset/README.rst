@@ -33,3 +33,10 @@
    GunAsset
    HatAsset
    KeyAsset
+   MagazineAsset
+   MapAsset
+   MaskAsset
+   MedicalAsset
+   OpticAsset
+   PantsAsset
+   PlaceableAsset
