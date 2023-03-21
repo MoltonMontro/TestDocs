@@ -3,7 +3,7 @@ Blueprints
 
 **Blueprints** *int*: Total number of blueprints.
 
-**Blueprint\_#\_Type** *enum* (`Ammo`, `Apparel`, `Barricade`, `Furniture`, `Gear`, `Repair`, `Structure`, `Supply`, `Tool`, `Utilities`): Section of the crafting menu that the blueprint listing should appear under.
+**Blueprint\_#\_Type** *enum* (``Ammo``, ``Apparel``, ``Barricade``, ``Furniture``, ``Gear``, ``Repair``, ``Structure``, ``Supply``, ``Tool``, ``Utilities``): Section of the crafting menu that the blueprint listing should appear under.
 
 **Blueprint\_#\_Supplies** *int*: Total number of unique supplies required for the blueprint.
 
@@ -21,7 +21,7 @@ Blueprints
 
 **Blueprint\_#\_Level** *int*: Skill level required.
 
-**Blueprint\_#\_Skill** *enum* (`Cook`, `Craft`, `None`, `Repair`): The skill required. If value is set to "Cook", then the player will also need to be next to a heat source (such as a lit Campfire).
+**Blueprint\_#\_Skill** *enum* (``Cook``, ``Craft``, ``None``, ``Repair``): The skill required. If value is set to "Cook", then the player will also need to be next to a heat source (such as a lit Campfire).
 
 **Blueprint\_#\_Build** *int16* or *GUID*: ID or GUID of auditory effect to play upon crafting.
 
@@ -30,7 +30,7 @@ Blueprints
 Product Properties
 ------------------
 
-Product properties are used for blueprints where only one unique item is outputted.  Output properties are used for blueprints that should output multiple unique items.
+Product properties are used for blueprints where only one unique item is outputted. Output properties are used for blueprints that should output multiple unique items.
 
 **Blueprint\_#\_Product** *int16*: ID of the product created.
 
@@ -45,6 +45,6 @@ Product properties are used for blueprints where only one unique item is outputt
 Conditions
 ----------
 
-Blueprints can use quest conditions and rewards. A common usage is to make it so a blueprint is only available during a seasonal event. Refer to [Conditions.md](/NPCAsset/Conditions.md) and [Rewards.md](/NPCAsset/Rewards.md) for additional documentation.
+Blueprints can use quest conditions and rewards. A common usage is to make it so a blueprint is only available during a seasonal event. Refer to `Conditions.rst <Conditions.rst>`_ and `Rewards.rst <Rewards.rst>`_ for additional documentation.
 
-Blueprint conditions and rewards are prefixed with `Blueprint_#_`. For example, `Blueprint_0_Condition_0_Type Holiday`.
+Blueprint conditions and rewards are prefixed with ``Blueprint_#_``. For example, ``Blueprint_0_Condition_0_Type Holiday``.
