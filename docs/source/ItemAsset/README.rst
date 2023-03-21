@@ -1,6 +1,10 @@
 🗀 Item Assets
 =============
 
+.. rst-class:: fa fa-font-awesome
+
+   |
+
 Item assets are an [Assets v1](/AssetsV1.md) class. See [AssetBundles.md](/AssetBundles.md) for full documentation regarding asset bundles.
 
 **GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
