@@ -13,3 +13,10 @@
    Actions
    ArrestEndAsset
    ArrestStartAsset
+   BackpackAsset
+   BagAsset
+   BarrelAsset
+   BarricadeAsset
+   Blueprints
+   BoxAsset
+   CaliberAsset
