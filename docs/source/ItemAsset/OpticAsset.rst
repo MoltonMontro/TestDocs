@@ -10,9 +10,9 @@ Item Asset Properties
 
 **GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Optic`)
+**Type** *enum* (``Optic``)
 
-**Useable** *enum* (`Optic`)
+**Useable** *enum* (``Optic``)
 
 **ID** *uint16*: Must be a unique identifier.
 
