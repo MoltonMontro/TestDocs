@@ -3,7 +3,7 @@ Bag Assets
 
 Clothing bags can be worn by players and zombies.
 
-This inherits the [ClothingAsset](/ItemAsset/ClothingAsset.md) class.
+This inherits the `ClothingAsset <ClothingAsset.rst>`_ class.
 
 Bag Asset Properties
 --------------------
