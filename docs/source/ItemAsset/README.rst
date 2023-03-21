@@ -1,7 +1,7 @@
 🗀 Item Assets
 =============
 
-.. rst-class:: fa fa-font-awesome
+.. rst-class:: fas fa-folder
 
    |
 
