@@ -17,3 +17,9 @@
    Blueprints
    BoxAsset
    CaliberAsset
+   ChargeAsset
+   ClothingAsset
+   CloudAsset
+   ConsumeableAsset
+   DetonatorAsset
+   FarmAsset
