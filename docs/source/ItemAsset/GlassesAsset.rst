@@ -3,16 +3,16 @@ Glasses Assets
 
 Glasses can be worn by players and zombies.
 
-This inherits the [GearAsset](/ItemAsset/GearAsset.md) class.
+This inherits the `GearAsset <GearAsset.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Glasses`)
+**Type** *enum* (``Glasses``)
 
-**Useable** *enum* (`Clothing`)
+**Useable** *enum* (``Clothing``)
 
 **ID** *uint16*: Must be a unique identifier.
 
@@ -29,4 +29,4 @@ Glasses Asset Properties
 
 **Nightvision_Fog_Intensity** *float*: Intensity of fog while nightvision is active. Default value for Civilian is 0.5. Default value for Military is 0.25.
 
-**Vision** *enum* (`None`, `Military`, `Civilian`, `Headlamp`): Type of unique lighting vision effect to use. Defaults to None. Use the Military enumerator when intending to assign a custom nightvision color via the color component properties.
+**Vision** *enum* (``None``, ``Military``, ``Civilian``, ``Headlamp``): Type of unique lighting vision effect to use. Defaults to None. Use the Military enumerator when intending to assign a custom nightvision color via the color component properties.
