@@ -3,16 +3,16 @@ Pants Assets
 
 Pants can be worn by players and zombies.
 
-This inherits the [BagAsset](/ItemAsset/BagAsset.md) class.
+This inherits the `BagAsset <BagAsset.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Pants`)
+**Type** *enum* (``Pants``)
 
-**Useable** *enum* (`Clothing`)
+**Useable** *enum* (``Clothing``)
 
 **ID** *uint16*: Must be a unique identifier.
 
