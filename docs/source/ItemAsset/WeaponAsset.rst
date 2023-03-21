@@ -3,7 +3,7 @@ Weapon Assets
 
 Weapon assets function as a source of damage. The functional implementation of properties may differ slightly between assets.
 
-This inherits the [ItemAsset](/ItemAsset/README.md) class.
+This inherits the `ItemAsset <README.rst>`_ class.
 
 Weapon Asset Properties
 =======================
@@ -31,9 +31,9 @@ Player Damage
 
 **Player_Skull_Multiplier** *float*: Multiplier on damage targeted against a player's head. Limb multipliers are not utilized by explosive weapons.
 
-**Player_Damage_Bleeding** *enum* (`Always`, `Default`, `Heal`, `Never`): Determines the effect the weapon has in relation to the "Bleeding" status effect. Defaults to "Default" enumerator.
+**Player_Damage_Bleeding** *enum* (``Always``, ``Default``, ``Heal``, ``Never``): Determines the effect the weapon has in relation to the "Bleeding" status effect. Defaults to "Default" enumerator.
 
-**Player_Damage_Bones** *enum* (`Always`, `Heal`, `None`): Determines the effect the weapon has in relation to the "Broken Bones" status effect. Defaults to the "None" enumerator.
+**Player_Damage_Bones** *enum* (``Always``, ``Heal``, ``None``): Determines the effect the weapon has in relation to the "Broken Bones" status effect. Defaults to the "None" enumerator.
 
 **Player_Damage_Food**: Amount of degradation dealt to a targeted player's food.
 
@@ -74,11 +74,11 @@ Animal Damage
 Construct Damage
 ----------------
 
-**BladeID** *byte*: Weapon can damage any resources that have a matching BladeID. Deprecated in favor of BladeIDs and BladeID_#.
+**BladeID** *byte*: Weapon can damage any resources that have a matching BladeID. Deprecated in favor of BladeIDs and BladeID\_#.
 
-**BladeIDs** *int*: Total number of unique BladeID_# values.
+**BladeIDs** *int*: Total number of unique BladeID\_# values.
 
-**BladeID_#** *byte*: Weapon can damage any resources that have a matching BladeID_# value.
+**BladeID_#** *byte*: Weapon can damage any resources that have a matching BladeID\_# value.
 
 **Barricade_Damage** *float*: Amount of damage that should be dealt to barricades, prior to modifiers.
 
