@@ -1,7 +1,7 @@
 Caliber Assets
 ==============
 
-This inherits the [ItemAsset](/ItemAsset/README.md) class.
+This inherits the `ItemAsset <README.rst>`_ class.
 
 Caliber Asset Properties
 ------------------------
@@ -10,13 +10,13 @@ Caliber Asset Properties
 
 **Aiming\_Recoil\_Multiplier** *float*: Recoil magnitude multiplier while the gun is aiming down sights.
 
-**Aim\_Duration\_Multiplier** *float*: Multiplier for `Aim_In_Duration` value.
+**Aim\_Duration\_Multiplier** *float*: Multiplier for ``Aim_In_Duration`` value.
 
 **Ballistic_Damage_Multiplier** *float*: Multiplier on damage. Defaults to the value used for the Damage property.
 
 **Calibers** *uint16*: Total amount of unique calibers.
 
-**Caliber_#** *uint16*: Caliber ID for acceptable attachment compatibility.
+**Caliber\_#** *uint16*: Caliber ID for acceptable attachment compatibility.
 
 **Damage** *float*: Multiplier on damage. Defaults to 1. Deprecated in favor of Ballistic_Damage_Multiplier.
 
