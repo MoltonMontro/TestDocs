@@ -3,14 +3,14 @@ Sight Assets
 
 Sight attachments are inventory items that can be attached to ranged weapons.
 
-This inherits the [CaliberAsset](/ItemAsset/CaliberAsset.md) class.
+This inherits the `CaliberAsset <CaliberAsset.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Sight`)
+**Type** *enum* (``Sight``)
 
 **ID** *uint16*: Must be a unique identifier.
 
@@ -27,7 +27,7 @@ Sight Asset Properties
 
 **Nightvision_Fog_Intensity** *float*: Intensity of fog while nightvision is active. Default value for Civilian is 0.5. Default value for Military is 0.25.
 
-**Vision** *enum* (`None`, `Military`, `Civilian`, `Headlamp`): Type of unique lighting vision effect to use. Defaults to None. Use the Military enumerator when intending to assign a custom nightvision color via the color component properties.
+**Vision** *enum* (``None``, ``Military``, ``Civilian``, ``Headlamp``): Type of unique lighting vision effect to use. Defaults to None. Use the Military enumerator when intending to assign a custom nightvision color via the color component properties.
 
 **Zoom** *float*: Multiplicative amount of zoom. Should be set to a value greater than 1. Defaults to 1.
 
