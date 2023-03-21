@@ -1,7 +1,7 @@
 🗀 Item Assets
 =============
 
-.. rst-class:: fas fa-folder
+.. rst-class:: fa fa-folder
 
    |
 
