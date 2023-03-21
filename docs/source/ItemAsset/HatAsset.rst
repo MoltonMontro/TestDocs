@@ -3,7 +3,7 @@ Hat Assets
 
 Hats can be worn by players and zombies.
 
-This inherits the `ItemAsset <README.rst>`_ class.
+This inherits the `GearAsset <GearAsset.rst>`_ class.
 
 Item Asset Properties
 ---------------------
