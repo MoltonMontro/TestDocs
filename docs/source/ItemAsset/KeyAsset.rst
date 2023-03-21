@@ -3,14 +3,14 @@ Key Assets
 
 Keys are intended to be used as a part of the Steam Economy, rather than as in-game content. As such, none of its unique properties can be properly utilized by modders.
 
-This inherits the [ItemAsset](/ItemAsset/README.md) class.
+This inherits the `ItemAsset <README.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Key`)
+**Type** *enum* (``Key``)
 
 **ID** *uint16*: Must be a unique identifier.
 
