@@ -24,3 +24,12 @@
    ConsumeableAsset
    DetonatorAsset
    FarmAsset
+   FilterAsset
+   FoodAsset
+   FuelAsset
+   GearAsset
+   GlassesAsset
+   GripAsset
+   GunAsset
+   HatAsset
+   KeyAsset
