@@ -3,16 +3,16 @@ Shirt Assets
 
 Shirts can be worn by players and zombies.
 
-This inherits the [BagAsset](/ItemAsset/BagAsset.md) class.
+This inherits the `BagAsset <BagAsset.rst>`_ class.
 
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to [GUID](/GUID.md) documentation.
+**GUID** *32-digit hexadecimal*: Refer to `GUID <GUID.rst>`_ documentation.
 
-**Type** *enum* (`Shirt`)
+**Type** *enum* (``Shirt``)
 
-**Useable** *enum* (`Clothing`)
+**Useable** *enum* (``Clothing``)
 
 **ID** *uint16*: Must be a unique identifier.
 
@@ -24,10 +24,10 @@ Shirt Asset Properties
 Body Mesh Replacements
 ----------------------
 
-See [CharacterMeshReplacement.md](/CharacterMeshReplacement.md) for full documentation.
+See `CharacterMeshReplacement.rst <../CharacterMeshReplacement.rst>`_ for full documentation.
 
 **Has_1P_Character_Mesh_Override** *bool*: A prefab named "Character_Mesh_1P_Override_0" should be loaded. Defaults to false.
 
 **Character_Mesh_3P_Override_LODs** *uint16*: Number of prefabs to load for each LOD index. Defaults to 0.
 
-**Has_Character_Material_Override** *bool*: A material named "Character_Material_Override" should be loaded to replace the firstperson and thirdperson mesh materials. Defaults to false.
+**Has_Character_Material_Override** *bool*: A material named "Character_Material_Override" should be loaded to replace the first-person and third-person mesh materials. Defaults to false.
