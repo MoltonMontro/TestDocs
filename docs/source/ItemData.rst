@@ -17,7 +17,6 @@ Item Data (outdated)
 - :ref:`Fuel Canisters <ItemData:Fuel Canisters>`
 - :ref:`Growth Supplements <ItemData:Growth Supplements>`
 - :ref:`Melee Weapons <ItemData:Melee Weapons>`
-- :ref:`Remote Triggers <ItemData:Remote Triggers>`
 - :ref:`Structures <ItemData:Structures>`
 - :ref:`Tools <ItemData:Tools>`
 - :ref:`Water Canisters <ItemData:Water Canisters>`
