@@ -1,7 +1,7 @@
 .. rst-class:: fa fa-folder
 
    Item Assets
-=================
+============================
 
 Item assets are an [Assets v1](/AssetsV1.md) class. See [AssetBundles.md](/AssetBundles.md) for full documentation regarding asset bundles.
 
