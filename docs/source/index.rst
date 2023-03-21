@@ -30,6 +30,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
    :maxdepth: 1
    :caption: Documentation
    
+   ItemAsset/README
    NPCAsset/README
    
    AirdropAsset
