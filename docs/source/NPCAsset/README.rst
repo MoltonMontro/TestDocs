@@ -8,7 +8,7 @@ Localization
 
 There are additional text formatting features available for NPC localization files.
 
-**\<color=*enum*\>\</color\>**: Use a rarity color as the font color. Valid rarities are: `common`, `uncommon`, `rare`, `epic`, `legendary`, `mythical`, `gold`, `red`, `orange`, `yellow`, `green`, `blue`, and `purple`. Alternatively, specify a six-digit hexadecimal number representing RGB color.
+**\<color=*enum*\>\</color\>**: Use a rarity color as the font color. Valid rarities are: ``common``, ``uncommon``, ``rare``, ``epic``, ``legendary``, ``mythical``, ``gold``, ``red``, ``orange``, ``yellow``, ``green``, ``blue``, and ``purple``. Alternatively, specify a six-digit hexadecimal number representing RGB color.
 
 **\<name_npc\>**: Insert the NPC character's name.
 
@@ -17,3 +17,18 @@ There are additional text formatting features available for NPC localization fil
 **\<br\>**: New line.
 
 **\<pause\>**: Pause dialogue for 0.5 seconds before continuing.
+
+.. Below is the table-of-content tree for the website,
+   which is hidden from the page but appears in the sidebar.
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: 📁 NPCAsset
+   
+   Characters
+   Conditions
+   Dialogues
+   Quests
+   Rewards
+   Vendors
