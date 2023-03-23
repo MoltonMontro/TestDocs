@@ -1,9 +1,11 @@
+.. _doc_itemasset_gun:
+
 Gun Assets
 ==========
 
 Ranged weapons can be used as a source of damage. Ranged weapons always show quality.
 
-This inherits the `WeaponAsset <WeaponAsset.rst>`_ class.
+This inherits the :ref:`WeaponAsset <doc_itemasset_weapon>` class.
 
 Item Asset Properties
 ---------------------
