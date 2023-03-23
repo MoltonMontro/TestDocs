@@ -99,3 +99,13 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	servers/ServerHosting
 	servers/ServerHostingRules
 	servers/ServerUpdateNotifications
+
+.. toctree::
+	:hidden:
+	:maxdepth: 1
+	:caption: Data types
+	
+	data/AssetPtr
+	data/Bitmask
+	data/GUID
+	data/MasterBundlePtr
