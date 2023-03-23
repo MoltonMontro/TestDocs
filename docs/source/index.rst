@@ -31,6 +31,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	:caption: About
 	
 	about/Troubleshooting
+	about/CommandLine
 	about/GettingStarted
 
 .. First section has articles on assets (in general).
