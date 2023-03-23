@@ -89,7 +89,6 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	:caption: Servers & Programming
 
 	servers/CommandIO
-	servers/CommandLine
 	servers/DedicatedWorkshopUpdateMonitor
 	servers/GameServerLoginTokens
 	servers/Glazier
