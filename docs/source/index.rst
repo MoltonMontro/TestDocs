@@ -30,8 +30,8 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	:maxdepth: 1
 	:caption: About
 	
-	about/troubleshooting
-	about/getting-started
+	about/Troubleshooting
+	about/GettingStarted
 
 .. First section has articles on assets (in general).
 	Second section lists asset types, alphabetically.
