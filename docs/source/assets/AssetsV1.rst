@@ -1,3 +1,5 @@
+.. _doc_assets_v1:
+
 Assets v1
 =========
 
