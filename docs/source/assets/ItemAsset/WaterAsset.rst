@@ -10,7 +10,7 @@ This inherits the :ref:`ConsumeableAsset <doc_itemasset_consumeable>` class.
 Item Asset Properties
 ---------------------
 
-**GUID** *32-digit hexadecimal*: Refer to :ref:`GUID <doc_data_guid>`_ documentation.
+**GUID** *32-digit hexadecimal*: Refer to :ref:`GUID <doc_data_guid>` documentation.
 
 **Type** *enum* (``Water``)
 
