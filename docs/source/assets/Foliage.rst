@@ -3,7 +3,7 @@
 Foliage
 =======
 
-This is an :ref:`Asset v2 <doc_asset_v2>` class.
+This is an :ref:`Asset v2 <doc_assets_v2>` class.
 
 There are sub-types of foliage asset for different uses, most notably instanced meshes (grass, pebbles) and resources (trees). Unlike the older system, tree baking cannot be configured directly within the level editor yet, but there are two benefits to separating baking settings from the trees themselves:
 
