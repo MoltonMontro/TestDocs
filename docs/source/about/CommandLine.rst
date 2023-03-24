@@ -16,7 +16,7 @@ Some command-line arguments are primarily intended for use with the Unturned Ded
 
 **+connect**: Connect to a server, in the format of ``+connect <ip address>:<port>``.
 
-**-DisableCullingVolumes**: Disable object culling distance overrides. Please refer to `Manual Object Culling <ManualObjectCulling.rst>`_ for more details.
+**-DisableCullingVolumes**: Disable object culling distance overrides. Please refer to :ref:`Manual Object Culling <doc_mapping_culling>` for more details.
 
 **-DisableLightLODs**: Disable fadeout of dynamic lights. Could be useful for high-quality screenshots.
 
