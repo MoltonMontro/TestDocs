@@ -36,7 +36,7 @@ Inventory Properties
 
 **Allow\_Manual\_Drop** *bool*: Item can be manually dropped by the player. Defaults to true.
 
-**InventoryAudio** :ref:`Master Bundle Pointer <docs_data_masterbundleptr>`: AudioClip or OneShotAudioDefinition to play when item is picked up, moved within the inventory, and dropped.
+**InventoryAudio** :ref:`Master Bundle Pointer <doc_data_masterbundleptr>`: AudioClip or OneShotAudioDefinition to play when item is picked up, moved within the inventory, and dropped.
 
 **Procedurally\_Animate\_Inertia** *bool*: Whether viewmodel should accumulate angular velocity from animations. Useful for low-quality older animations, but should probably be disabled for high-quality newer animations.
 
@@ -78,7 +78,7 @@ Other Properties
 
 **Bypass\_Hash\_Verification** *bool*: Disable hash verification check, and allow for mismatched files. Defaults to false.
 
-**EquipablePrefab** :ref:`Master Bundle Pointer <docs_data_masterbundleptr>`: Overrides the model spawned when this item is equipped. For example the Equipable prefab could use an animated skinned mesh component while the regular Item prefab only needs a static mesh component.
+**EquipablePrefab** :ref:`Master Bundle Pointer <doc_data_masterbundleptr>`: Overrides the model spawned when this item is equipped. For example the Equipable prefab could use an animated skinned mesh component while the regular Item prefab only needs a static mesh component.
 
 **Ignore_TexRW** *flag*: Specified if read/writeable texture errors for the asset should be hidden from the error logs.
 
@@ -87,7 +87,7 @@ Other Properties
 Blueprints and Actions
 ----------------------
 
-Items can have crafting blueprints and context menu actions. Refer to `Blueprints.rst <Blueprints.rst>`_ and `Actions.rst <Actions.rst>`_ for documentation.
+Items can have crafting blueprints and context menu actions. Refer to :ref:`Blueprints.rst <doc_itemasset_blueprints>` and :ref:`Actions.rst <doc_itemasset_actions>` for documentation.
 
 Localization
 ------------
