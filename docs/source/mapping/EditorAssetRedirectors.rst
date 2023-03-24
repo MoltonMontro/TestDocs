@@ -1,4 +1,4 @@
-.. _doc_mapping_asset_redirectors:
+.. _doc_mapping_redirectors:
 
 Editor Asset Redirectors
 ========================
