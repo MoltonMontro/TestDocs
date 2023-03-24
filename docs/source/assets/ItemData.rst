@@ -16,7 +16,7 @@ Item Data (outdated)
 Non-specific Data
 =================
 
-* Refer to :ref:`<doc_itemasset_intro>` instead.
+* Refer to :ref:`doc_itemasset_intro` instead.
 
 **Durability**: Either a decimal probability chance of quality loss upon action, or guaranteed loss and durability value is instead representative of the amount lost.
 
