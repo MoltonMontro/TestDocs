@@ -9,6 +9,7 @@ This inherits the :ref:`CaliberAsset <doc_itemasset_caliber>` class.
 
 Item Asset Properties
 ---------------------
+
 **GUID** *32-digit hexadecimal*: Refer to :ref:`GUID <doc_data_guid>` documentation.
 
 **Type** *enum* (``Magazine``)
