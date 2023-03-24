@@ -27,7 +27,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 0
 	:caption: About
 	
 	about/Troubleshooting
@@ -38,7 +38,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	Second section lists asset types, alphabetically.
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 0
 	:caption: Asset Manual
 	
 	assets/AssetBundleCustomData
@@ -72,7 +72,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 0
 	:caption: Mapping
 	
 	mapping/CuratedMaps
@@ -85,7 +85,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 0
 	:caption: Servers & Programming
 
 	servers/CommandIO
@@ -102,7 +102,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 0
 	:caption: Data types
 	
 	data/AssetPtr
