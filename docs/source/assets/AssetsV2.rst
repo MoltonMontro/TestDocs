@@ -3,7 +3,7 @@
 Assets v2
 =========
 
-For the vast majority of older features like items, vehicles, effects, etc refer to `Assets v1 <AssetsV1.rst>`_.
+For the vast majority of older features like items, vehicles, effects, etc refer to :ref:`Assets v1 <doc_assets_v1>`.
 
 The main advantages of the newer assets are:
 
