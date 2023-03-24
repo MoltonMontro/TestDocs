@@ -78,7 +78,7 @@ Other Properties
 
 **Bypass\_Hash\_Verification** *bool*: Disable hash verification check, and allow for mismatched files. Defaults to false.
 
-**EquipablePrefab** `Master Bundle Pointer <../MasterBundlePtr.rst>`_: Overrides the model spawned when this item is equipped. For example the Equipable prefab could use an animated skinned mesh component while the regular Item prefab only needs a static mesh component.
+**EquipablePrefab** :ref:`Master Bundle Pointer <docs_data_masterbundleptr>`: Overrides the model spawned when this item is equipped. For example the Equipable prefab could use an animated skinned mesh component while the regular Item prefab only needs a static mesh component.
 
 **Ignore_TexRW** *flag*: Specified if read/writeable texture errors for the asset should be hidden from the error logs.
 
