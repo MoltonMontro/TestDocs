@@ -1,3 +1,5 @@
+.. _doc_data_assetptr:
+
 Asset Pointer
 =============
 
