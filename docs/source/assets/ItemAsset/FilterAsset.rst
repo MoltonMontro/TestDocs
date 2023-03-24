@@ -5,7 +5,7 @@ Filter Assets
 
 Radiation filters can be used to replenish the quality of radiation-proof :ref:`masks <doc_itemasset_mask>`.
 
-This inherits the :ref:`ItemAsset <doc_itemasset_filter>` class.
+This inherits the :ref:`ItemAsset <doc_itemasset_intro>` class.
 
 Item Asset Properties
 ---------------------
