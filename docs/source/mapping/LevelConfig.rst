@@ -51,7 +51,7 @@ Arena Mode
 General
 -------
 
-**Asset**: Object with GUID of :ref:`Level Asset <doc_mapping_asset>` to instantiate on this map. For example:
+**Asset**: Object with GUID of :ref:`Level Asset <doc_assets_level>` to instantiate on this map. For example:
 
 .. code-block:: json
 
