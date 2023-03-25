@@ -57,7 +57,7 @@ Calibers
 Damage
 ``````
 
-In addition to the damage properties available from the the :ref:`WeaponAsset <assets/ItemAsset/WeaponAsset:Player Damage>` class, GunAssets have some exclusive properties.
+In addition to the damage properties available from the the :ref:`WeaponAsset <doc_itemasset_weapon:player_damage>` class, GunAssets have some exclusive properties.
 
 **Damage_Falloff_Multiplier** *float*: Percentage of damage to apply at maximum range. For example, a value of 0.25 with a damage of 40 means 10 damage will be dealt at maximum range. Defaults to 1.
 
@@ -245,4 +245,4 @@ Rewards
 
 Gun assets can use quest rewards. For example, every time the ranged weapon is fired an item could be spawned in the player's inventory. Alternatively, shooting the ranged weapon may be required to complete a quest. For more information, refer to the :ref:`Rewards <doc_npcasset_rewards>` documentation.
 
-These rewards are prefixed with ``Shoot_Quest_``. For example, ``Shoot_Quest_Rewards 1``.
+These rewards are prefixed with ``Shoot\_Quest\_``. For example, ``Shoot_Quest_Rewards 1``.
