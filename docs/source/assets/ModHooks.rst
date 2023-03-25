@@ -35,10 +35,14 @@ Destroy Event Hook
 
 Event when a component or game object is removed from the scene.
 
+.. _doc_assets_modhooks:iobs_event_hook:
+
 Interactable Object Binary State Event Hook (IOBS)
 ``````````````````````````````````````````````````
 
 (IOBS for short) are any prop placed from the level editor which can have F pressed on them to open, close, turn on/off, etc. This hook can be added to any GameObject within an IOBS to trigger events during state changes, and even control the IOBS from client and server side.
+
+.. _doc_assets_modhooks:npc_global_event_hook:
 
 NPC Global Event Hook
 `````````````````````
