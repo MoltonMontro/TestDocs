@@ -49,7 +49,7 @@ Installation on Linux varies by distribution and your admin preferences, so refe
 
 Continue to: :ref:`How to Install Server using SteamCMD <doc_server_hosting:install with steamcmd>`
 
-.. _doc_server_hosting:install_with_steamcmd
+.. _doc_server_hosting:install_with_steamcmd:
 
 How to Install Server using SteamCMD
 ------------------------------------
@@ -78,7 +78,7 @@ How to Install Server using SteamCMD
 
 Continue to: :ref:`How to Launch Server on Windows <doc_server_hosting:launch_server_windows>` or :ref:`How to Launch Server on Linux <doc_server_hosting:launch_server_linux>`
 
-.. _doc_server_hosting:install_without_steamcmd
+.. _doc_server_hosting:install_without_steamcmd:
 
 How to Install Server without SteamCMD
 --------------------------------------
