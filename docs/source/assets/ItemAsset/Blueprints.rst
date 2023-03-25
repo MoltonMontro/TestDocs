@@ -5,7 +5,7 @@ Blueprints
 
 **Blueprints** *int*: Total number of blueprints.
 
-**Blueprint\_#\_Type** *enum* (** ``Ammo`` **, ``Apparel``, ``Barricade``, ``Furniture``, ``Gear``, ``Repair``, ``Structure``, ``Supply``, ``Tool``, ``Utilities``): Section of the crafting menu that the blueprint listing should appear under.
+**Blueprint\_#\_Type** *enum* (``Ammo``, ``Apparel``, ``Barricade``, ``Furniture``, ``Gear``, ``Repair``, ``Structure``, ``Supply``, ``Tool``, ``Utilities``): Section of the crafting menu that the blueprint listing should appear under.
 
 **Blueprint\_#\_Supplies** *int*: Total number of unique supplies required for the blueprint.
 
