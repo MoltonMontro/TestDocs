@@ -79,6 +79,8 @@ Refer to [Currency](/Currency.md) documentation.
 
 **Reward\_#\_Value** *int*: Amount of currency to reward.
 
+.. _doc_npcasset_rewards:event:
+
 Event
 `````
 
