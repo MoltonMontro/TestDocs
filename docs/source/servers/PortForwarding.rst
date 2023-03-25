@@ -55,6 +55,8 @@ In general the steps are along the lines of:
 
 9. Save the new rule.
 
+.. _doc_servers_portforwarding:tunneling:
+
 Tunneling
 ---------
 
