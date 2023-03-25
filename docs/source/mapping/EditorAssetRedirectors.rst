@@ -9,7 +9,7 @@ The game looks for a file named "EditorAssetRedirectors.txt" in the Unturned fol
 
 For example:
 
-.. code-block:
+.. code-block:: txt
 	
 	// Replace Boulder_00 with Boulder_01
 	6125b4de591b44359237f6d7191dd919 -> ee402fc9debe4f03bffb31a49eb04fb7
