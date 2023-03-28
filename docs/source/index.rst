@@ -46,7 +46,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	assets/assets-v1
 	assets/assets-v2
 	assets/asset-validation
-
+	
 	assets/airdrop-asset
 	assets/animal-asset
 	assets/animation
@@ -87,7 +87,7 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	:hidden:
 	:maxdepth: 1
 	:caption: Servers & Programming
-
+	
 	servers/command-io
 	servers/dedicated-workshop-update-monitor
 	servers/game-server-login-tokens

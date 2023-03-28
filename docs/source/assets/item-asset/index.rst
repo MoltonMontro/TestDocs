@@ -4,10 +4,10 @@
 .. Below is the table-of-content tree for the folder.
 
 .. toctree::
-   :maxdepth: 1
-   
-   Introduction
-   
+	:maxdepth: 1
+	
+	introduction
+	
 	actions
 	arrest-end-asset
 	arrest-start-asset
