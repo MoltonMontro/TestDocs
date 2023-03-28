@@ -12,7 +12,7 @@ Quest Assets
 Conditions and Rewards
 ----------------------
 
-Quests can be turned in when conditions are met, and players can receive rewards for turning quests in. For more information, refer to the documentation for :ref:`Conditions <doc_npcasset_conditions>` and :ref:`Rewards <doc_npcasset_rewards>` respectively.
+Quests can be turned in when conditions are met, and players can receive rewards for turning quests in. For more information, refer to the documentation for :ref:`Conditions <doc_npc_asset_conditions>` and :ref:`Rewards <doc_npc_asset_rewards>` respectively.
 
 Localization
 ------------

@@ -7,12 +7,12 @@ All multiplayer servers are hosted using the Unturned Dedicated Server tool (som
 
 **Multiplatform:**
 
-- :ref:`How to Install Server using SteamCMD <servers/ServerHosting:How to Install Server using SteamCMD>`
-- :ref:`How to Install Server without SteamCMD <servers/ServerHosting:How to Install Server without SteamCMD>`
+- :ref:`How to Install Server using SteamCMD <doc_server_hosting:install_with_steamcmd>`
+- :ref:`How to Install Server without SteamCMD <doc_server_hosting:install_without_steamcmd>`
 - :ref:`How to Configure Server <doc_server_hosting:configure_server>`
 - :ref:`How to Host Curated Maps <doc_server_hosting:host_curated_maps>`
 - :ref:`How to Host Over Internet <doc_server_hosting:host_over_internet>`
-- :ref:`Port Forwarding <doc_servers_portforward>`
+- :ref:`Port Forwarding <doc_servers_port_forward>`
 - :ref:`Rocket <doc_servers_rocket>`
 - :ref:`Login Tokens <doc_servers_gslt>`
 - :ref:`Update Notifications <doc_server_update_notifications>`
@@ -134,7 +134,7 @@ How to Launch Server on Windows
 
 9. The batch script has created a new file directory located in ``...\U3DS\Servers``, called "MyServer". This directory is where all the savedata and configuration files are kept. Changing the `MyServer` ServerID (from step 5) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
 
-10. (optional) For your server to be visible on the in-game internet server list you will need to set a :ref:`Login Token <doc_servers_gslt>` and configure :ref:`Port Forwarding <doc_servers_portforward>`.
+10. (optional) For your server to be visible on the in-game internet server list you will need to set a :ref:`Login Token <doc_servers_gslt>` and configure :ref:`Port Forwarding <doc_servers_port_forward>`.
 
 .. _doc_server_hosting:launch_server_linux:
 
@@ -154,7 +154,7 @@ How to Launch Server on Linux
 
 4. The executed command has created a new file directory located in ``.../U3DS/Servers``, called "MyServer". This directory is where all the savedata and configuration files are kept. Changing the ``MyServer`` ServerID (from step 2) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
 
-5. (optional) For your server to be visible on the in-game internet server list you will need to set a :ref:`Login Token <doc_servers_gslt>` and configure :ref:`Port Forwarding <doc_servers_portforward>`.
+5. (optional) For your server to be visible on the in-game internet server list you will need to set a :ref:`Login Token <doc_servers_gslt>` and configure :ref:`Port Forwarding <doc_servers_port_forward>`.
 
 .. _doc_server_hosting:configure_server:
 
@@ -262,10 +262,10 @@ Alphabetically sorted list of curated map file IDs:
 How to Host Over Internet
 -------------------------
 
-Hosting a publicly-accessible internet server requires an extra step compared to a LAN server. When on a home network :ref:`Port Forwarding <doc_servers_portforward>` is required in order to direct traffic to the host computer.
+Hosting a publicly-accessible internet server requires an extra step compared to a LAN server. When on a home network :ref:`Port Forwarding <doc_servers_port_forward>` is required in order to direct traffic to the host computer.
 
 One way to think of it is that when there are multiple devices (e.g. computers and phones) connected to the LAN, the outside internet does not know which device is the Unturned server. In this case port forwarding specifies which LAN device is the host.
 
-For port ranges and other details: :ref:`Port Forwarding <doc_servers_portforward>`.
+For port ranges and other details: :ref:`Port Forwarding <doc_servers_port_forward>`.
 
 Listing your server on the in-game internet server list requires a :ref:`Login Token <doc_servers_gslt>` to be set.

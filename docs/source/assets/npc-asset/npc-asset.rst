@@ -98,7 +98,7 @@ Pose
 Conditions
 ----------
 
-An NPC character can be made to only appear while certain :ref:`conditions <doc_npcasset_conditions>` are met by the player.
+An NPC character can be made to only appear while certain :ref:`conditions <doc_npc_asset_conditions>` are met by the player.
 
 Localization
 ------------

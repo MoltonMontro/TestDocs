@@ -102,4 +102,4 @@ Each color can use a custom override, or a color from the level editor lighting 
 NPC Conditions
 --------------
 
-Global weather state and current weather intensity blend can be tested through NPC conditions. Refer to :ref:`Conditions <doc_npcasset_conditions>` documentation for documentation.
+Global weather state and current weather intensity blend can be tested through NPC conditions. Refer to :ref:`Conditions <doc_npc_asset_conditions>` documentation for documentation.

@@ -12,7 +12,7 @@ Dialogue Assets
 Messages
 --------
 
-Properties pertaining to dialogue performed by the NPC. Dialogue can utilize conditions and rewards. Messages that meet all of their conditions will be shown, and can grant rewards when the message is shown. These are prefixed with ``Message_#_``. For example, ``Message_0_Condition_0_Type Flag_Bool``. For more information, refer to the documentation for :ref:`Conditions <doc_npcasset_conditions>` and :ref:`Rewards <doc_npcasset_rewards>` respectively.
+Properties pertaining to dialogue performed by the NPC. Dialogue can utilize conditions and rewards. Messages that meet all of their conditions will be shown, and can grant rewards when the message is shown. These are prefixed with ``Message_#_``. For example, ``Message_0_Condition_0_Type Flag_Bool``. For more information, refer to the documentation for :ref:`Conditions <doc_npc_asset_conditions>` and :ref:`Rewards <doc_npc_asset_rewards>` respectively.
 
 **Messages** *int32*: Total number of possible messages.
 
@@ -29,7 +29,7 @@ Properties pertaining to dialogue performed by the NPC. Dialogue can utilize con
 Responses
 ---------
 
-Properties pertaining to dialogue available to the player. Dialogue can utilize conditions and rewards. Responses are only visible when conditions are met, and can grant rewards when selected. These are prefixed with `Response_#_`. For example, `Response_0_Reward_0_Type Quest`. For more information, refer to the documentation for :ref:`Conditions <doc_npcasset_conditions>` and :ref:`Rewards <doc_npcasset_rewards>` respectively.
+Properties pertaining to dialogue available to the player. Dialogue can utilize conditions and rewards. Responses are only visible when conditions are met, and can grant rewards when selected. These are prefixed with `Response_#_`. For example, `Response_0_Reward_0_Type Quest`. For more information, refer to the documentation for :ref:`Conditions <doc_npc_asset_conditions>` and :ref:`Rewards <doc_npc_asset_rewards>` respectively.
 
 **Responses** *byte*: Total number of possible responses.
 

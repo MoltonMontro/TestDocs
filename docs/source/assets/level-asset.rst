@@ -11,7 +11,7 @@ For examples check the ``Assets/Levels`` directory.
 
 ``Airdrop`` :ref:`Asset Pointer <doc_data_assetptr>`: Asset pointer to an :ref:`Airdrop Asset <doc_assets_airdrop>`. Overrides the falling care package model.
 
-``Crafting_Blacklists`` array of :ref:`Asset Pointers <doc_data_assetptr>`: Asset pointers to :ref:`Crafting Blacklist(s) <doc_assets_craftingblacklist>`. Prevents specific items or blueprints from being used while crafting in the level.
+``Crafting_Blacklists`` array of :ref:`Asset Pointers <doc_data_assetptr>`: Asset pointers to :ref:`Crafting Blacklist(s) <doc_assets_crafting_blacklist>`. Prevents specific items or blueprints from being used while crafting in the level.
 
 ``Min_Stealth_Radius`` *float*: Player stealth skill level cannot reduce minimum detection distance below this value.
 

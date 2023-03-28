@@ -19,7 +19,7 @@ This package contains the barebones required to export custom content:
 
 - :ref:`Asset Bundling Tools <doc_asset_bundles>`
 - Default Project Settings
-- :ref:`(Optional) Mod Hooks <doc_assets_modhooks>`
+- :ref:`(Optional) Mod Hooks <doc_assets_mod_hooks>`
 
 ExampleAssets.unitypackage
 --------------------------

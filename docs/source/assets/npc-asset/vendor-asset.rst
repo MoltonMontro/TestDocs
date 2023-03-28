@@ -12,7 +12,7 @@ Vendor Assets
 Buying
 ------
 
-Properties pertaining to items that the vendor is willing to buy from players. Vendors can set conditions for the items they are buying. These conditions are prefixed with ``Buying_#_``. For example, ``Buying_0_Conditions 1``. For more information, refer to the documentation for :ref:`Conditions <doc_npcasset_conditions>` and :ref:`Rewards <doc_npcasset_rewards>` respectively.
+Properties pertaining to items that the vendor is willing to buy from players. Vendors can set conditions for the items they are buying. These conditions are prefixed with ``Buying_#_``. For example, ``Buying_0_Conditions 1``. For more information, refer to the documentation for :ref:`Conditions <doc_npc_asset_conditions>` and :ref:`Rewards <doc_npc_asset_rewards>` respectively.
 
 **Buying** *byte*: Total number items being bought by the vendor.
 
@@ -23,7 +23,7 @@ Properties pertaining to items that the vendor is willing to buy from players. V
 Selling
 -------
 
-Properties pertaining to items or vehicles that the vendor is willing to sell to players. Vendors can set conditions for the items/vehicles they are selling. These conditions are prefixed with ``Selling_#_``. For example, ``Selling_0_Conditions 1``. For more information, refer to the documentation for :ref:`Conditions <doc_npcasset_conditions>` and :ref:`Rewards <doc_npcasset_rewards>` respectively.
+Properties pertaining to items or vehicles that the vendor is willing to sell to players. Vendors can set conditions for the items/vehicles they are selling. These conditions are prefixed with ``Selling_#_``. For example, ``Selling_0_Conditions 1``. For more information, refer to the documentation for :ref:`Conditions <doc_npc_asset_conditions>` and :ref:`Rewards <doc_npc_asset_rewards>` respectively.
 
 **Selling** *byte*: Total number of items/vehicles being sold by the vendor.
 
