@@ -8,9 +8,9 @@
    
    Introduction
    
-   Characters
-   Conditions
-   Dialogues
-   Quests
-   Rewards
-   Vendors
+	npc-asset
+	conditions
+	dialogue-asset
+	quest-asset
+	rewards
+	vendor-asset
