@@ -52,9 +52,9 @@ Several older tutorial videos are gradually becoming outdated and don't represen
 	assets/animation
 	assets/character-mesh-replacement
 	assets/crafting-blacklist-asset
-	assets/currency-currency
+	assets/currency-asset
 	assets/effect-asset
-	assets/foliage-currency
+	assets/foliage-asset
 	assets/item-asset/index
 	assets/item-data
 	assets/layers
