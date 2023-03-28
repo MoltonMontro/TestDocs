@@ -79,7 +79,7 @@ Refer to :ref:`Currency <doc_assets_currency>` documentation.
 
 **Reward\_#\_Value** *int*: Amount of currency to reward.
 
-.. _doc_npcasset_rewards:event:
+.. _doc_npc_asset_rewards:event:
 
 Event
 `````
