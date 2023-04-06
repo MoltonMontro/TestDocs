@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = "Molt's Test Docs"
+project = "Molt's Test Docs (PH)"
 copyright = '2023, Molt'
 author = 'Molt'
 
